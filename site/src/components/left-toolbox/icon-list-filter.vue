@@ -119,7 +119,7 @@ syncRef(
                 </v-btn-toggle>
             </template>
             <template #item="{ props, item }">
-                <v-list-item v-bind="props" :title="物品原始标签">
+                <v-list-item v-bind="props" :title="item.raw.label">
                     <template #prepend>
                         <icon-component class="rounded icon-div" :image="item.raw.image" />
                     </template>

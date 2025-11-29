@@ -44,7 +44,7 @@ errorHandler.value = (_title, _error, _isWarning) => {
                         <v-expansion-panel-title>报错详情</v-expansion-panel-title>
                         <v-expansion-panel-text>
                             <v-list :lines="undefined" density="compact">
-                                <v-list-item v-for="text in details" :key="text" :title="文本" />
+                                <v-list-item v-for="text in details" :key="text" :title="text" />
                             </v-list>
                         </v-expansion-panel-text>
                     </v-expansion-panel>
