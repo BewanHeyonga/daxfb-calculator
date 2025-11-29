@@ -17,7 +17,7 @@ const selectedAlgorithm = useVModel(props, 'modelValue', emit);
     <v-select
         v-model="selectedAlgorithm"
         :items="knownLayoutAlgorithms(LayoutType.ELK).algorithms"
-        label="Elk layout algorithm"
+        label="Elk布局算法"
         density="compact"
     >
         <template #details>

@@ -96,7 +96,7 @@ watch(() => props.modelValue, (value, oldValue) => {
     <v-dialog v-model="dialog">
         <v-sheet>
             <v-toolbar>
-                <v-toolbar-title>Automatically Layout Blueprint</v-toolbar-title>
+                <v-toolbar-title>蓝图自动布局</v-toolbar-title>
                 <v-spacer />
                 <v-btn
                     :icon="mdiClose"
@@ -105,16 +105,16 @@ watch(() => props.modelValue, (value, oldValue) => {
             </v-toolbar>
             <v-container style="position: relative;">
                 <v-alert type="warning">
-                    Automatic layout algorithm is not perfect, it can make blueprint even worse.
-                    Currently there is no undo functionality, it is highly recommended to backup blueprint before performing auto layout.
-                    Layout libraries are huge, make sure you have enough memory before executing.
+                    自动布局算法并不完美，会让蓝图变得更糟。
+                    目前没有撤销功能，强烈建议在执行自动布局之前备份蓝图。
+                    布局库很大，请确保在执行之前有足够的内存。
                 </v-alert>
                 <v-row dense class="mt-2">
                     <v-col>
                         <v-select
                             v-model="selectedLayoutFactory"
                             :items="[...layoutFactories.values()]"
-                            label="Layout processor"
+                            label="整理布局"
                             density="compact"
                             hide-details
                         />
@@ -122,7 +122,7 @@ watch(() => props.modelValue, (value, oldValue) => {
                     <v-col>
                         <input-number
                             v-model="layoutSettings.layoutOptions.edgeSpacing"
-                            label="Edge Spacing"
+                            label="边缘间距"
                             :min="0"
                             :default-value="10"
                         />
@@ -132,7 +132,7 @@ watch(() => props.modelValue, (value, oldValue) => {
                     <v-col>
                         <input-number
                             v-model="layoutSettings.layoutOptions.nodeSpacing"
-                            label="Vertical Node Spacing"
+                            label="垂直节点间距"
                             :min="0"
                             :default-value="100"
                         />
@@ -140,7 +140,7 @@ watch(() => props.modelValue, (value, oldValue) => {
                     <v-col>
                         <input-number
                             v-model="layoutSettings.layoutOptions.connectedNodeSpacing"
-                            label="Horizontal Node Spacing"
+                            label="水平节点间距"
                             :min="0"
                             :default-value="100"
                         />
@@ -163,7 +163,7 @@ watch(() => props.modelValue, (value, oldValue) => {
                             block
                             @click="performAutoLayoutGraph()"
                         >
-                            Perform Automatic Layout
+                            进行自动布局
                         </v-btn>
                     </v-col>
                 </v-row>

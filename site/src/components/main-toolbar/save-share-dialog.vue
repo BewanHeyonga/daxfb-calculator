@@ -91,7 +91,7 @@ watch(exportTarget, debouncedUpdateFullyEncodedBlueprint);
     <v-dialog v-model="dialog">
         <v-sheet>
             <v-toolbar>
-                <v-toolbar-title>Save / Share Blueprint</v-toolbar-title>
+                <v-toolbar-title>保存/分享 蓝图</v-toolbar-title>
                 <v-spacer />
                 <v-btn
                     :icon="mdiClose"
@@ -103,7 +103,7 @@ watch(exportTarget, debouncedUpdateFullyEncodedBlueprint);
                     <v-col>
                         <v-text-field
                             v-model="blueprintName"
-                            label="Edit Blueprint Description"
+                            label="编辑蓝图备注"
                             density="comfortable"
                             hide-details
                             clearable
@@ -115,7 +115,7 @@ watch(exportTarget, debouncedUpdateFullyEncodedBlueprint);
                             v-model="exportTarget"
                             density="comfortable"
                             hide-details
-                            label="Target"
+                            label="输出"
                             :items="Object.values(ExportTarget)"
                         />
                     </v-col>
@@ -125,7 +125,7 @@ watch(exportTarget, debouncedUpdateFullyEncodedBlueprint);
                         <v-textarea
                             ref="textArea"
                             class="text-monospaced textarea-overflow-auto"
-                            label="Copy Blueprint Data"
+                            label="拷贝蓝图数据"
                             variant="outlined"
                             readonly
                             hide-details

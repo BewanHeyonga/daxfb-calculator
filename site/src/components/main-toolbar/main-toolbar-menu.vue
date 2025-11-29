@@ -23,34 +23,34 @@ const showApplyCountDialog = ref(false);
         <v-list>
             <v-list-item
                 :prepend-icon="mdiDelete"
-                title="Clear All"
+                title="全部移除"
                 @click="blueprintModel.clear()"
             />
             <v-divider horizontal />
             <v-list-item
                 :prepend-icon="mdiArrangeSendToBack"
-                title="Auto Layout Graph"
+                title="自动布局"
                 @click="showAutoLayoutDialog = true"
             />
             <v-list-item
                 :prepend-icon="mdiCounter"
-                title="Mass Update Counts"
+                title="更新计数"
                 @click="showApplyCountDialog = true"
             />
             <v-divider horizontal />
             <v-list-item
                 :prepend-icon="mdiCog"
-                title="Settings"
+                title="设置"
                 @click="showSettingsDialog = true"
             />
             <v-list-item
                 :prepend-icon="mdiHelpCircle"
-                title="Help"
+                title="帮助"
                 @click="showHelpDialog = true"
             />
             <v-list-item
                 :prepend-icon="mdiInformationOutline"
-                title="About"
+                title="关于"
                 @click="showAboutDialog = true"
             />
         </v-list>

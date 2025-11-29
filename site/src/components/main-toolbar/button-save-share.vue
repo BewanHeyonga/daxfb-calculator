@@ -13,7 +13,7 @@ const showShareDialog = ref(false);
 
 <template>
     <tooltip-button
-        tooltip="Save / Share Blueprint"
+        tooltip="保存/分享 蓝图"
         :icon="settings.isTouchDevice ? mdiShareVariant : mdiContentSave"
         @click="showShareDialog = true"
     />

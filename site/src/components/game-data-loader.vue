@@ -91,7 +91,7 @@ onMounted(() => {
 </script>
 
 <template>
-    <v-card v-if="!isReady" title="Select game" variant="outlined">
+    <v-card v-if="!isReady" title="选择游戏" variant="outlined">
         <v-card-text>
             <v-radio-group v-model="loadGameId">
                 <v-radio v-for="(value, key) in gameList" :key="key" :label="value" :value="key" />
@@ -99,7 +99,7 @@ onMounted(() => {
         </v-card-text>
         <v-card-actions>
             <v-btn color="primary" variant="outlined" :disabled="!loadGameId" @click="loadGameDataManual">
-                Load game
+                加载游戏
             </v-btn>
         </v-card-actions>
         <v-overlay

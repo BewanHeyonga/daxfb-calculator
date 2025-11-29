@@ -25,7 +25,7 @@ const colorClasses = [
 let currentColorClass = 0;
 
 export function newKey(key?: string) {
-    return key || ('k' + currentKey++);
+    return key || ( currentKey++ + '人');
 }
 export function newColorClass() {
     const colorClass = colorClasses[currentColorClass] || colorClasses[0];

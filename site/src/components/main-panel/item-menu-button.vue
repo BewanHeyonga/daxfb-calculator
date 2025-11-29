@@ -46,7 +46,7 @@ function changeUpgradeMode(isUpgradeMode?: boolean) {
         <v-icon :icon="mdiMenu" />
         <v-menu v-model="menuOpened" density="compact" activator="parent" :close-on-content-click="false">
             <v-list>
-                <v-list-item title="Count">
+                <v-list-item title="数目">
                     <input-number
                         class="count-number"
                         :model-value="props.item.count"
@@ -60,19 +60,19 @@ function changeUpgradeMode(isUpgradeMode?: boolean) {
                     <v-btn-toggle color="primary" multiple :model-value="itemOptions">
                         <tooltip-button tooltip="Lock" :icon="mdiLock" value="lock" @click="props.item.setLocked(!props.item.isLocked)" />
                         <tooltip-button
-                            tooltip="Primary Objective"
+                            tooltip="主产物"
                             :icon="mdiBullseyeArrow"
                             value="Primary"
                             @click="changeObjective(Objective.Primary)"
                         />
                         <tooltip-button
-                            tooltip="Secondary Objective"
+                            tooltip="此产物"
                             :icon="mdiBullseye"
                             value="Secondary"
                             @click="changeObjective(Objective.Secondary)"
                         />
                         <tooltip-button
-                            tooltip="Low Priority Objective"
+                            tooltip="低优先级"
                             :icon="mdiPriorityLow"
                             value="LowPriority"
                             @click="changeObjective(Objective.LowPriority)"
@@ -80,7 +80,7 @@ function changeUpgradeMode(isUpgradeMode?: boolean) {
                     </v-btn-toggle>
                 </v-list-item>
                 <v-divider v-if="props.item.isUpgradable()" />
-                <v-list-item v-if="props.item.isUpgradable()" title="Upgrade Mode" @click.stop="changeUpgradeMode();">
+                <v-list-item v-if="props.item.isUpgradable()" title="升级模式" @click.stop="changeUpgradeMode();">
                     <template #prepend>
                         <v-switch
                             class="mr-5"
@@ -95,12 +95,12 @@ function changeUpgradeMode(isUpgradeMode?: boolean) {
                 <v-divider />
                 <v-list-item
                     :prepend-icon="mdiLinkOff"
-                    title="Delete all links"
+                    title="断开连接"
                     @click="props.item.deleteAllLinks(); menuOpened = false;"
                 />
                 <v-list-item
                     :prepend-icon="mdiDelete"
-                    title="Delete"
+                    title="删除"
                     @click="props.item.deleteThis()"
                 />
             </v-list>

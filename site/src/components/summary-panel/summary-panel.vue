@@ -18,15 +18,15 @@ const showTotals: Partial<Record<GameItemType, boolean>> = {
 const summaryTitle: Record<SummaryType, {icon: string; title: string}> = {
     [SummaryType.Input]: {
         icon: mdiImport,
-        title: 'Input',
+        title: '消耗',
     },
     [SummaryType.Output]: {
         icon: mdiExport,
-        title: 'Output',
+        title: '生产',
     },
     [SummaryType.Cost]: {
         icon: mdiWrench,
-        title: 'Build Cost',
+        title: '建造成本',
     },
 };
 

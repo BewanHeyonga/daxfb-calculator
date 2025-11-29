@@ -17,7 +17,7 @@ const selectedAlgorithm = useVModel(props, 'modelValue', emit);
     <v-select
         v-model="selectedAlgorithm"
         :items="knownLayoutAlgorithms(LayoutType.DAGRE).algorithms"
-        label="Dagre layout algorithm"
+        label="Dagre布局算法"
         density="compact"
     >
         <template #details>

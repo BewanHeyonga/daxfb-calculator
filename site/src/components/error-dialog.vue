@@ -41,10 +41,10 @@ errorHandler.value = (_title, _error, _isWarning) => {
             <v-card-text>
                 <v-expansion-panels v-if="details.length">
                     <v-expansion-panel v-model="expanded">
-                        <v-expansion-panel-title>Error Details</v-expansion-panel-title>
+                        <v-expansion-panel-title>报错详情</v-expansion-panel-title>
                         <v-expansion-panel-text>
                             <v-list :lines="undefined" density="compact">
-                                <v-list-item v-for="text in details" :key="text" :title="text" />
+                                <v-list-item v-for="text in details" :key="text" :title="文本" />
                             </v-list>
                         </v-expansion-panel-text>
                     </v-expansion-panel>

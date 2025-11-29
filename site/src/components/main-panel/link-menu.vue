@@ -45,7 +45,7 @@ watch(menuOpened, (value, oldValue) => {
         <v-list>
             <v-list-item
                 :prepend-icon="mdiLinkOff"
-                title="Delete"
+                title="删除"
                 @click="props.link?.deleteThis(); menuOpened = false;"
             />
             <template v-if="logisticSet.length">

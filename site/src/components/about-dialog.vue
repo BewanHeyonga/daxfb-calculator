@@ -32,7 +32,7 @@ const __BUILD_TIME_STR__ = `${padNumber(btime.getFullYear(), 4)}-${padNumber(bti
                     <div class="d-flex align-center">
                         <img :src="logo" width="48" height="48">
                         <div class="pl-2">
-                            About
+                            关于
                         </div>
                     </div>
                 </v-toolbar-title>
@@ -44,31 +44,31 @@ const __BUILD_TIME_STR__ = `${padNumber(btime.getFullYear(), 4)}-${padNumber(bti
             </v-toolbar>
             <v-card-title>daxfb-calculator</v-card-title>
             <v-card-subtitle>
-                Calculator/Factory Planner for factory management games.
+                工厂管理游戏计算器
             </v-card-subtitle>
             <v-card-subtitle>
-                By doubleaxe (<v-icon :icon="mdiEmail" /><a href="mailto:dax@xdax.ru" target="_blank">dax@xdax.ru</a>,
+                作者 doubleaxe (<v-icon :icon="mdiEmail" /><a href="mailto:dax@xdax.ru" target="_blank">dax@xdax.ru</a>,
                 <a href="https://github.com/doubleaxe" target="_blank">https://github.com/doubleaxe</a>)
             </v-card-subtitle>
             <v-card-text>
                 <v-list :lines="undefined">
-                    <v-list-item title="Game">
+                    <v-list-item title="游戏">
                         <v-list-item-subtitle>
                             <a v-if="gameDescription.url" :href="gameDescription.url" target="_blank">{{ gameDescription.description }}</a>
                             <span v-else>{{ gameDescription.description }}</span>
                         </v-list-item-subtitle>
                     </v-list-item>
-                    <v-list-item title="Game version" :subtitle="gameDescription.version" />
-                    <v-list-item title="Build version" :subtitle="__VERSION__" />
-                    <v-list-item title="Build time" :subtitle="__BUILD_TIME_STR__" />
-                    <v-list-item title="Change log">
+                    <v-list-item title="游戏版本" :subtitle="gameDescription.version" />
+                    <v-list-item title="构建版本" :subtitle="__VERSION__" />
+                    <v-list-item title="构建时间" :subtitle="__BUILD_TIME_STR__" />
+                    <v-list-item title="变动日志">
                         <v-list-item-subtitle>
                             <a href="https://github.com/doubleaxe/daxfb-calculator/releases" target="_blank">
                                 https://github.com/doubleaxe/daxfb-calculator/releases
                             </a>
                         </v-list-item-subtitle>
                     </v-list-item>
-                    <v-list-item title="Bug reports">
+                    <v-list-item title="错误反馈">
                         <v-list-item-subtitle>
                             <a href="https://github.com/doubleaxe/daxfb-calculator/issues" target="_blank">
                                 https://github.com/doubleaxe/daxfb-calculator/issues

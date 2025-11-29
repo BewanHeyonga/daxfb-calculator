@@ -11,7 +11,7 @@ const showGenerateLinkDialog = ref(false);
 
 <template>
     <tooltip-button
-        tooltip="Generate Link"
+        tooltip="生成链接"
         :icon="mdiLinkVariantPlus"
         @click="showGenerateLinkDialog = true"
     />

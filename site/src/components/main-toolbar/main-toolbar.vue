@@ -15,7 +15,7 @@ const homeReference = [location.protocol, '//', location.host, location.pathname
 
 <template>
     <tooltip-button
-        tooltip="Solve graph"
+        tooltip="求解"
         :icon="mdiSigma"
         :disabled="blueprintModel.autoSolveGraph"
         @click="blueprintModel.solveGraph(true)"
@@ -24,7 +24,7 @@ const homeReference = [location.protocol, '//', location.host, location.pathname
     <v-divider vertical />
     <a :href="homeReference" target="_blank" class="anchor-plain">
         <tooltip-button
-            tooltip="Open Another Window"
+            tooltip="新建窗口"
             :icon="mdiHome"
         />
     </a>

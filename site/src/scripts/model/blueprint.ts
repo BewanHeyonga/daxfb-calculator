@@ -36,7 +36,7 @@ export class BlueprintModelImpl {
 
     public blueprintName = '';
     getDefaultBlueprintName() {
-        return `${this._gameData.gameDescription.description} New Blueprint`;
+        return `${this._gameData.gameDescription.description} 新蓝图`;
     }
     resetBlueprintName() {
         this.blueprintName = this.getDefaultBlueprintName();

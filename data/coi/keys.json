@@ -1027,7 +1027,8 @@
     "FastBreederReactor-Fuel1-PowerLevel2": "gw",
     "FastBreederReactor-PowerLevel2-Enrichment2": "gx",
     "FastBreederReactor-PowerLevel2-Enrichment3": "gy",
-    "FastBreederReactor-PowerLevel1-Enrichment3": "gz"
+    "FastBreederReactor-PowerLevel1-Enrichment3": "gz",
+    "Contract_Product_FuelGas_For_Product_Rock": "gA"
   },
-  "lastKey": 1027
+  "lastKey": 1028
 }

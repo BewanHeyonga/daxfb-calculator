@@ -13,7 +13,7 @@ const showShareDialog = ref(false);
 
 <template>
     <tooltip-button
-        tooltip="Load Blueprint"
+        tooltip="加载蓝图"
         :icon="settings.isTouchDevice ? mdiCloudDownload : mdiFolderOutline"
         @click="showShareDialog = true"
     />

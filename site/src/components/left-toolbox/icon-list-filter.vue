@@ -94,7 +94,7 @@ syncRef(
             clearable
             no-filter
             hide-details
-            label="Item"
+            label="物品"
             :items="currentPage"
             @focus="(page = 1)"
         >
@@ -108,18 +108,18 @@ syncRef(
                     variant="outlined"
                 >
                     <v-btn value="-1">
-                        Input
+                        消耗
                     </v-btn>
                     <v-btn value="0">
-                        All
+                        全部
                     </v-btn>
                     <v-btn value="1">
-                        Output
+                        生产
                     </v-btn>
                 </v-btn-toggle>
             </template>
             <template #item="{ props, item }">
-                <v-list-item v-bind="props" :title="item.raw.label">
+                <v-list-item v-bind="props" :title="物品原始标签">
                     <template #prepend>
                         <icon-component class="rounded icon-div" :image="item.raw.image" />
                     </template>
@@ -141,7 +141,7 @@ syncRef(
         <v-select
             v-if="(maxTier > minTier)"
             v-model="filter.tier"
-            label="Tier"
+            label="层级"
             clearable
             hide-details
             :items="allTiers"
@@ -164,7 +164,7 @@ syncRef(
                         &gt;=
                     </v-btn>
                 </v-btn-toggle>
-                <v-list-item title="Group By" @click="(filter.groupTier = !filter.groupTier)">
+                <v-list-item title="分组" @click="(filter.groupTier = !filter.groupTier)">
                     <template #prepend>
                         <v-list-item-action start>
                             <v-checkbox v-model="filter.groupTier" hide-details />

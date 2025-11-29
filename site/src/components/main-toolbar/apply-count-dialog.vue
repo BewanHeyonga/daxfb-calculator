@@ -36,7 +36,7 @@ function applyFactoryCounts() {
     <v-dialog v-model="dialog">
         <v-sheet>
             <v-toolbar>
-                <v-toolbar-title>Automatically Apply Factory Counts</v-toolbar-title>
+                <v-toolbar-title>自动申请工厂数目</v-toolbar-title>
                 <v-spacer />
                 <v-btn
                     :icon="mdiClose"
@@ -45,22 +45,22 @@ function applyFactoryCounts() {
             </v-toolbar>
             <v-container>
                 <v-alert type="warning">
-                    This will apply automatically calculated factory counts for all factories.
-                    In result manually set counts will be equal to automatically calculated ones.
+                    这将对所有工厂应用自动计算的工厂计数。
+                    结果，手动设置的计数将等于自动计算的计数。
                 </v-alert>
                 <v-row dense class="mt-2">
                     <v-col>
                         <v-radio-group v-model="roundingMode" inline>
                             <v-radio
-                                label="Round to nearest greater integer"
+                                label="向上取整"
                                 value="ceil"
                             />
                             <v-radio
-                                label="Set fractional counts"
+                                label="允许小数"
                                 value="fractional"
                             />
                             <v-radio
-                                label="Set all counts to 1"
+                                label="将所有计数设置为1"
                                 value="one"
                             />
                         </v-radio-group>

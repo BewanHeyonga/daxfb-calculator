@@ -88,7 +88,7 @@ watch(() => unref(settings)?.darkTheme, () => {
                 <main-toolbar>
                     <template #append>
                         <tooltip-button
-                            tooltip="Toggle Summary"
+                            tooltip="摘要开关"
                             :icon="mdiFormatListBulletedType"
                             @click="toggleSummary()"
                         />

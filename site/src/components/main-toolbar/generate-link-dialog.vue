@@ -146,7 +146,7 @@ watch(() => settings.appendFileNameToLink, regenerateLinkText);
     <v-dialog v-model="dialog">
         <v-sheet>
             <v-toolbar>
-                <v-toolbar-title>Generate Link For Blueprint</v-toolbar-title>
+                <v-toolbar-title>生成蓝图链接</v-toolbar-title>
                 <v-spacer />
                 <v-btn
                     :icon="mdiClose"
@@ -155,16 +155,16 @@ watch(() => settings.appendFileNameToLink, regenerateLinkText);
             </v-toolbar>
             <v-container style="position: relative;">
                 <v-alert type="info">
-                    Links are intended to be used for sharing blueprints with other people.
-                    They were not designed as local file storage replacement.
-                    In order to generate link, blueprint data will be uploaded to remote (my) server.
-                    I will keep this server online as long as possible, but in the event of failure, all shared blueprints may be lost.
+                    链接旨在用于与其他人共享蓝图。
+                    它们不是设计为本地文件存储替代品。
+                    为了生成链接，蓝图数据将被上传到远程（我的）服务器。
+                    我将尽可能长时间地保持此服务器在线状态，但如果发生故障，所有共享蓝图可能会丢失。
                 </v-alert>
                 <v-row dense class="mt-2">
                     <v-col>
                         <v-text-field
                             v-model="blueprintName"
-                            label="Edit Blueprint Description"
+                            label="编辑蓝图描述"
                             density="comfortable"
                             hide-details
                             clearable
@@ -174,7 +174,7 @@ watch(() => settings.appendFileNameToLink, regenerateLinkText);
                     <v-col cols="4">
                         <v-checkbox
                             v-model="settings.appendFileNameToLink"
-                            label="Embed file name (as a hint) inside generated link"
+                            label="将文件名（作为提示）嵌入生成的链接中"
                             density="compact"
                             hide-details
                         />
@@ -184,7 +184,7 @@ watch(() => settings.appendFileNameToLink, regenerateLinkText);
                     <v-col>
                         <v-text-field
                             v-model="generatedLink"
-                            label="Generated Link"
+                            label="生成链接"
                             density="comfortable"
                             hide-details
                             readonly

@@ -1,0 +1,1874 @@
+NuclearReactorT2
+
+{Mafi.Core.Factory.NuclearReactors.NuclearReactorProto(HashCode:-1179323868)}
+  EntityType: { }
+  ComputingConsumed: 12
+  Upgrade: { }
+    {Mafi.Core.Prototypes.UpgradeData(HashCode:273717112)}
+      NextTier: None: IProtoWithUpgrade
+      PreviousTier: Some: NuclearReactor (NuclearReactorProto)
+      SkipFromReplaceFlow: False
+      CannotDowngrade: False
+      CannotSkipUpgrade: False
+      CannotMove: False
+      TierData: { }
+        {Mafi.Core.Prototypes.TierData(HashCode:842652598)}
+          NextTierIndirect: Some: FastBreederReactor (NuclearReactorProto)
+          PreviousTierIndirect: Some: NuclearReactor (NuclearReactorProto)
+          TierNumberForUi: 0
+  TierData: { }
+    {Mafi.Core.Prototypes.TierData(HashCode:842652598)}
+    (reference already dumped - line:13)
+  Recipes: { }
+    {Mafi.Core.Factory.NuclearReactors.NuclearReactor+Recipe(HashCode:513067504)}
+      Id: Product_MoxRod
+      AllUserVisibleInputs: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Factory.Recipes.RecipeInput, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      AllUserVisibleOutputs: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Factory.Recipes.RecipeOutput, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      Duration: 300
+      FuelMultiplier: 100.00%
+      FuelPerMinute: 0
+    {Mafi.Core.Factory.NuclearReactors.NuclearReactor+Recipe(HashCode:752417896)}
+      Id: Product_UraniumRod
+      AllUserVisibleInputs: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Factory.Recipes.RecipeInput, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      AllUserVisibleOutputs: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Factory.Recipes.RecipeOutput, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      Duration: 300
+      FuelMultiplier: 100.00%
+      FuelPerMinute: 0
+  Layout: { }
+    {Mafi.Core.Entities.Static.Layout.EntityLayout(HashCode:767584314)}
+      CoreSize: (16, 32)
+      SourceLayoutStr: "      [4][4][4][7][7][7][7][7][7][7][7][5][5][5]   
+      [4][5][5][7][7][7][7][7][7][7][7][5][5][5]   
+      [4][5][6][7][7][7][7][7][7][7][7][6][5][5]   
+      [4][5][6][7][7][7][7][7][7][7][7][6][5][5]   
+      [4][4][4][7][7][7][7][7][7][7][7][5][5][5]   
+      [4][4][4][7][7][7][7][7][7][7][7][5][5][5]   
+      [4][4][4][7][7][7][7][7][7][7][7][5][5][5]   
+      [4][4][4][7][7][7][7][7][7][7][7][5][5][5]   
+      [4][4][4][7][7][7][7][7][7][7][7][5][5][5]   
+      [4][4][4][7][7][7][7][7][7][7][7][5][5][5]   
+      [4][4][6][7][7][7][7][7][7][7][7][5][5][5]   
+   [3][4][4][6][7][7][7][7][7][7][7][7][5][5][5]   
+F#>[3][4][4][4][7][7][7][7][7][7][7][7][5][5][5]   
+   [3][4][4][4][7][7][7][7][7][7][7][7][5][5][5]   
+S#<[3][4][4][4][4][4][6][6][6][6][4][4][4][4][4]   
+   [3][4][4][4][4][5][5][5][5][5][5][4][4][4][4][3]
+   [3][4][4][4][6][6][6][6][6][6][6][5][4][4][4][3]
+   [3][4][4][6][6]-3]-3]-3]-3][6][6][6][5][5][4][3]
+   [3][4][5][6]-3]-3]-5]-5]-3]-3]-3][6][6][5][4][3]
+   [3][4]-3]-3]-3]-5]-5]-5]-5]-5]-3]-3]-3][5][4][3]
+   [3][4]-4]-4]-5]-5]-5]-5]-5]-5]-4]-4]-3][5][4][3]
+   [3][4]-4]-4]-5]-5]-5]-5]-5]-5]-4]-4]-3][5][4][3]
+   [3][4]-3]-3]-5]-5]-5]-5]-5]-5]-3]-3]-3][5][4][3]
+   [3][4][5]-3]-3]-5]-5]-5]-5]-5]-3][6][6][5][4][3]
+   [3][4][4][5]-3]-3]-3]-3]-3]-3]-3][6][5][5][4][3]
+      [4][4][4][5][6][6][6][6][6][6][5][4][4][4]   
+         [4][4][4][5][5][5][5][5][5][4][4][4]      
+      D@>[4][4][4][4][4][4][4][4][4][4][4][4]W@>   
+         [4][4][4][4][4][4][4][4][4][4][4][4]      
+      A@>[4][4][4][4][4][4][4][4][4][4][4][4]X@>   
+      B@>[4][4][4][4][4][4][4][4][4][4][4][4]Y@>   
+         [4][4][4][4][4][4][4][4][4][4][4][4]      "
+      LayoutTiles: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Entities.Static.Layout.LayoutTile, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      TerrainVertices: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Entities.Static.Layout.TerrainVertexRel, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      VehicleSurfaceHeights: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[System.Collections.Generic.KeyValuePair`2[[Mafi.RelTile2i, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null],[Mafi.ThicknessTilesF, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+      Ports: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Ports.Io.IoPortTemplate, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      LayoutParams: { }
+        {Mafi.Core.Entities.Static.Layout.EntityLayoutParams(HashCode:-841661152)}
+          EnforceEmptySurface: False
+          IgnoreTilesForCore: None: Predicate`1
+          CustomTokens: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Entities.Static.Layout.CustomLayoutToken, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+          PortsCanOnlyConnectToTransports: False
+          HardenedFloorSurfaceId: DefaultConcrete_TerrainSurface
+          CustomVertexDataLayout: None: String[]
+          CustomVertexTransformFn: None: Func`3
+          CustomCollapseVerticesThreshold: null
+          CustomPlacementRange: null
+          CustomPortHeights: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[System.Collections.Generic.KeyValuePair`2[[System.Char, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+      LayoutMinHeight: -5
+      LayoutSize: (16, 32, 7)
+      OriginTile: null
+      CoreMin: (0, 0)
+      CoreMax: (15, 31)
+      TilesCount: 2710
+      CombinedConstraint: Ground
+      CollapseVerticesThreshold: 22
+      PlacementHeightRange: 0-0
+  Ports: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Ports.Io.IoPortTemplate, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+  CloningDisabled: False
+  IsUnique: False
+  CannotBeReflected: False
+  AutoBuildMiniZippers: False
+  Graphics: { }
+    {Mafi.Core.Factory.NuclearReactors.NuclearReactorProto+Gfx(HashCode:-313863192)}
+      PrefabPath: "Assets/Base/Buildings/NuclearReactors/NuclearReactorT2.prefab"
+      PrefabOrigin: (0, 0, 0)
+      IconPath: "Assets/Unity/Generated/Icons/LayoutEntity/NuclearReactorT2.png"
+      YawForGeneratedIcon: null
+      VisualizedLayers: Mafi.Core.Entities.Static.Layout.LayoutEntityProto+VisualizedLayers
+      Categories: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Entities.Static.Layout.ToolbarEntryData, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      SoundPrefabPath: Some: Assets/Base/Buildings/NuclearReactors/Shared/ReactorSound.prefab
+      FuelIconPath: Some: Assets/Base/Buildings/NuclearReactors/Shared/MoxReactorFuelIcon.svg
+      MaxEmissionIntensity: 3.5
+      IconIsCustom: False
+      UseInstancedRendering: False
+      UseSemiInstancedRendering: False
+      SemiInstancedRenderingExcludedObjects: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+      MaxRenderedLod: 2147483647
+      DisableEmptyChildrenStripping: False
+      InstancedRendererIndex: 0
+      AnimatedGameObjects: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Collections.ImmutableCollections.ImmutableArray`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Mafi.Collections.IReadOnlySet`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Mafi, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Mafi, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      AnimationLength: 0
+      HideBlockedPortsIcon: False
+      Color: (0, 0, 0, 0)
+      RendererIndex: 0
+  IconPath: "Assets/Unity/Generated/Icons/LayoutEntity/NuclearReactorT2.png"
+  Id: NuclearReactorT2
+  Costs: Mafi.Core.Prototypes.EntityCosts
+  Id: NuclearReactorT2
+  Id: NuclearReactorT2
+  Strings: Mafi.Core.Prototypes.Proto+Str
+  IsNotPhantom: True
+  IsInitialized: True
+  Mod: { }
+    {Mafi.Base.BaseMod(HashCode:172583464)}
+      Name: "Mafi-Base"
+      Version: 0
+      IsUiOnly: False
+      ModConfig: Some: Mafi.Base.BaseModConfig
+      Config: { }
+        {Mafi.Base.BaseModConfig(HashCode:459842888)}
+          BuildStartingFactory: True
+          TerrainGenerator: Default
+          MapRandomSeed: "MaFi random"
+          DisableWorldMapGenerator: False
+  Tags: { }
+    {Mafi.Collections.HybridSet`1+HybridSetNone[[Mafi.Core.Prototypes.Tag, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]](HashCode:399013466)}
+      Count: 0
+      IsEmpty: True
+      IsNotEmpty: False
+  IsNotAvailable: False
+  IsAvailable: True
+  IsLocked: True
+  IsUnlocked: False
+  IsUnlockedAndAvailable: False
+  IsLockedOrUnavailable: True
+  IsLockedButAvailable: True
+  IsObsolete: False
+  MaxPowerLevel: 4
+  WaterInPerPowerLevel: 16 of Product_Water (fluid)
+  SteamOutPerPowerLevel: 16 of Product_SteamHi (fluid)
+  WaterInPorts: "AB"
+  SteamOutPorts: "XY"
+  ProcessDuration: 100
+  FuelCapacity: 40
+  MinFuelToOperate: 16
+  FuelPairs: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Factory.NuclearReactors.NuclearReactorProto+FuelData, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+  FuelInPort: 'F'
+  FuelOutPort: 'S'
+  CoolantIn: { }
+    {Mafi.Core.Products.FluidProductProto(HashCode:-2146239391)}
+      QuantityFormatter: { }
+        {Mafi.Core.Localization.Quantity.ProductCountQuantityFormatter(HashCode:-1358262852)}
+      Graphics: { }
+        {Mafi.Core.Products.ProductProto+Gfx(HashCode:-1372172834)}
+          PrefabsPath: None: String
+          IconPath: "Assets/Base/Products/Icons/Water.svg"
+          IconIsCustom: True
+          Color: (187, 212, 238, 255)
+          TransportColor: (121, 148, 176, 255)
+          TransportAccentColor: (50, 70, 123, 255)
+      IconPath: "Assets/Base/Products/Icons/Water.svg"
+      Type: FluidProductProto
+      CanBeLoadedOnTruck: True
+      TrackSourceProducts: False
+      IsMixable: False
+      SlimId: 0
+      DoNotNormalize: False
+      DumpableProduct: None: LooseProductProto
+      SourceProduct: Mafi.Core.PartialProductQuantity
+      Id: Product_Water
+      Id: Product_Water
+      Strings: Mafi.Core.Prototypes.Proto+Str
+      IsNotPhantom: True
+      IsInitialized: True
+      Mod: { }
+        {Mafi.Base.BaseMod(HashCode:172583464)}
+        (reference already dumped - line:101)
+      Tags: { }
+        {Mafi.Collections.HybridSet`1+HybridSetNone[[Mafi.Core.Prototypes.Tag, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]](HashCode:399013466)}
+        (reference already dumped - line:113)
+      IsNotAvailable: False
+      IsAvailable: True
+      IsLocked: True
+      IsUnlocked: False
+      IsUnlockedAndAvailable: False
+      IsLockedOrUnavailable: True
+      IsLockedButAvailable: True
+      IsObsolete: False
+      MaxQuantityPerTransportedProduct: 3
+      IsStorable: True
+      Radioactivity: 0
+      PinToHomeScreenByDefault: False
+      IsExcludedFromStats: False
+      CanBeDiscarded: True
+      CanBeDestroyedInShipyard: False
+      IsWaste: False
+      IsRecyclable: False
+      IsPhantom: False
+  CoolantOut: { }
+    {Mafi.Core.Products.FluidProductProto(HashCode:1421893951)}
+      QuantityFormatter: { }
+        {Mafi.Core.Localization.Quantity.ProductCountQuantityFormatter(HashCode:-1358262852)}
+        (reference already dumped - line:139)
+      Graphics: { }
+        {Mafi.Core.Products.ProductProto+Gfx(HashCode:-1667178130)}
+          PrefabsPath: None: String
+          IconPath: "Assets/Base/Products/Icons/SteamDepleated.svg"
+          IconIsCustom: True
+          Color: (204, 204, 204, 255)
+          TransportColor: (170, 170, 170, 255)
+          TransportAccentColor: (85, 85, 85, 255)
+      IconPath: "Assets/Base/Products/Icons/SteamDepleated.svg"
+      Type: FluidProductProto
+      CanBeLoadedOnTruck: False
+      TrackSourceProducts: False
+      IsMixable: False
+      SlimId: 0
+      DoNotNormalize: False
+      DumpableProduct: None: LooseProductProto
+      SourceProduct: Mafi.Core.PartialProductQuantity
+      Id: Product_SteamDepleted
+      Id: Product_SteamDepleted
+      Strings: Mafi.Core.Prototypes.Proto+Str
+      IsNotPhantom: True
+      IsInitialized: True
+      Mod: { }
+        {Mafi.Base.BaseMod(HashCode:172583464)}
+        (reference already dumped - line:101)
+      Tags: { }
+        {Mafi.Collections.HybridSet`1+HybridSetNone[[Mafi.Core.Prototypes.Tag, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]](HashCode:399013466)}
+        (reference already dumped - line:113)
+      IsNotAvailable: False
+      IsAvailable: True
+      IsLocked: True
+      IsUnlocked: False
+      IsUnlockedAndAvailable: False
+      IsLockedOrUnavailable: True
+      IsLockedButAvailable: True
+      IsObsolete: False
+      MaxQuantityPerTransportedProduct: 3
+      IsStorable: False
+      Radioactivity: 0
+      PinToHomeScreenByDefault: False
+      IsExcludedFromStats: False
+      CanBeDiscarded: True
+      CanBeDestroyedInShipyard: False
+      IsWaste: False
+      IsRecyclable: False
+      IsPhantom: False
+  CoolantInPort: 'D'
+  CoolantOutPort: 'W'
+  LeakRadiationOnMeltdown: True
+  DestroyFuelOnMeltdown: False
+  Enrichment: None: EnrichmentData
+  Graphics: { }
+    {Mafi.Core.Factory.NuclearReactors.NuclearReactorProto+Gfx(HashCode:-313863192)}
+    (reference already dumped - line:70)
+  BoostCost: null
+  InputPorts: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Ports.Io.IoPortTemplate, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+  OutputPorts: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Ports.Io.IoPortTemplate, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+  CannotBeBuiltByPlayer: False
+  ConstructionDurationPerProduct: 2
+  CollapseRubbleScale: 100.00%
+  CustomBuriedTolerance: null
+  CustomSuspendedTolerance: null
+  VehicleGoalHeightAllowedRange: 0-0
+  DoNotStartConstructionAutomatically: False
+  Graphics: { }
+    {Mafi.Core.Factory.NuclearReactors.NuclearReactorProto+Gfx(HashCode:-313863192)}
+    (reference already dumped - line:70)
+  Graphics: { }
+    {Mafi.Core.Factory.NuclearReactors.NuclearReactorProto+Gfx(HashCode:-313863192)}
+    (reference already dumped - line:70)
+  IsPhantom: False
+
+
+
+NuclearReactorT2FuelPairs
+
+{Mafi.Core.Factory.NuclearReactors.NuclearReactorProto+FuelData(HashCode:-522311411)}
+  IsEmpty: False
+  FuelInProto: { }
+    {Mafi.Core.Products.CountableProductProto(HashCode:-1104631697)}
+      QuantityFormatter: { }
+        {Mafi.Core.Localization.Quantity.ProductCountQuantityFormatter(HashCode:-1358262852)}
+      Graphics: { }
+        {Mafi.Core.Products.CountableProductProto+Gfx(HashCode:-1495915856)}
+          PackingMode: Auto
+          PrefabsPath: Some: Assets/Base/Products/Countable/MoxRod.prefab
+          IconPath: "Assets/Base/Products/Icons/MoxRod.svg"
+          IconIsCustom: True
+          StackingOffsets: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.RelTile3f, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+          AllowPackingNoise: False
+          RotateSecondItem90Degs: False
+          Color: (255, 0, 255, 255)
+          TransportColor: (0, 0, 0, 0)
+          TransportAccentColor: (0, 0, 0, 0)
+      IconPath: "Assets/Base/Products/Icons/MoxRod.svg"
+      Type: CountableProductProto
+      CanBeLoadedOnTruck: True
+      TrackSourceProducts: True
+      IsMixable: False
+      SlimId: 0
+      DoNotNormalize: False
+      DumpableProduct: None: LooseProductProto
+      SourceProduct: Mafi.Core.PartialProductQuantity
+      Id: Product_MoxRod
+      Id: Product_MoxRod
+      Strings: Mafi.Core.Prototypes.Proto+Str
+      IsNotPhantom: True
+      IsInitialized: True
+      Mod: { }
+        {Mafi.Base.BaseMod(HashCode:172583464)}
+          Name: "Mafi-Base"
+          Version: 0
+          IsUiOnly: False
+          ModConfig: Some: Mafi.Base.BaseModConfig
+          Config: { }
+      Tags: { }
+        {Mafi.Collections.HybridSet`1+HybridSetNone[[Mafi.Core.Prototypes.Tag, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]](HashCode:399013466)}
+          Count: 0
+          IsEmpty: True
+          IsNotEmpty: False
+      IsNotAvailable: False
+      IsAvailable: True
+      IsLocked: True
+      IsUnlocked: False
+      IsUnlockedAndAvailable: False
+      IsLockedOrUnavailable: True
+      IsLockedButAvailable: True
+      IsObsolete: False
+      Graphics: { }
+        {Mafi.Core.Products.CountableProductProto+Gfx(HashCode:-1495915856)}
+        (reference already dumped - line:8)
+      MaxQuantityPerTransportedProduct: 3
+      IsStorable: True
+      Radioactivity: 0
+      PinToHomeScreenByDefault: False
+      IsExcludedFromStats: False
+      CanBeDiscarded: False
+      CanBeDestroyedInShipyard: False
+      IsWaste: False
+      IsRecyclable: False
+      IsPhantom: False
+  SpentFuelOutProto: { }
+    {Mafi.Core.Products.CountableProductProto(HashCode:1054386730)}
+      QuantityFormatter: { }
+        {Mafi.Core.Localization.Quantity.ProductCountQuantityFormatter(HashCode:-1358262852)}
+        (reference already dumped - line:6)
+      Graphics: { }
+        {Mafi.Core.Products.CountableProductProto+Gfx(HashCode:-299163896)}
+          PackingMode: Triangle
+          PrefabsPath: Some: Assets/Base/Products/Countable/SpentMox.prefab
+          IconPath: "Assets/Base/Products/Icons/SpentMox.svg"
+          IconIsCustom: True
+          StackingOffsets: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.RelTile3f, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+          AllowPackingNoise: False
+          RotateSecondItem90Degs: False
+          Color: (255, 0, 255, 255)
+          TransportColor: (0, 0, 0, 0)
+          TransportAccentColor: (0, 0, 0, 0)
+      IconPath: "Assets/Base/Products/Icons/SpentMox.svg"
+      Type: CountableProductProto
+      CanBeLoadedOnTruck: True
+      TrackSourceProducts: True
+      IsMixable: False
+      SlimId: 0
+      DoNotNormalize: False
+      DumpableProduct: None: LooseProductProto
+      SourceProduct: Mafi.Core.PartialProductQuantity
+      Id: Product_SpentMox
+      Id: Product_SpentMox
+      Strings: Mafi.Core.Prototypes.Proto+Str
+      IsNotPhantom: True
+      IsInitialized: True
+      Mod: { }
+        {Mafi.Base.BaseMod(HashCode:172583464)}
+        (reference already dumped - line:34)
+      Tags: { }
+        {Mafi.Collections.HybridSet`1+HybridSetNone[[Mafi.Core.Prototypes.Tag, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]](HashCode:399013466)}
+        (reference already dumped - line:41)
+      IsNotAvailable: False
+      IsAvailable: True
+      IsLocked: True
+      IsUnlocked: False
+      IsUnlockedAndAvailable: False
+      IsLockedOrUnavailable: True
+      IsLockedButAvailable: True
+      IsObsolete: False
+      Graphics: { }
+        {Mafi.Core.Products.CountableProductProto+Gfx(HashCode:-299163896)}
+        (reference already dumped - line:72)
+      MaxQuantityPerTransportedProduct: 3
+      IsStorable: True
+      Radioactivity: 4
+      PinToHomeScreenByDefault: False
+      IsExcludedFromStats: False
+      CanBeDiscarded: False
+      CanBeDestroyedInShipyard: False
+      IsWaste: False
+      IsRecyclable: False
+      IsPhantom: False
+  Duration: 1200
+{Mafi.Core.Factory.NuclearReactors.NuclearReactorProto+FuelData(HashCode:-654324282)}
+  IsEmpty: False
+  FuelInProto: { }
+    {Mafi.Core.Products.CountableProductProto(HashCode:113083156)}
+      QuantityFormatter: { }
+        {Mafi.Core.Localization.Quantity.ProductCountQuantityFormatter(HashCode:-1358262852)}
+        (reference already dumped - line:6)
+      Graphics: { }
+        {Mafi.Core.Products.CountableProductProto+Gfx(HashCode:-1735266248)}
+          PackingMode: Auto
+          PrefabsPath: Some: Assets/Base/Products/Countable/UraniumRod.prefab
+          IconPath: "Assets/Base/Products/Icons/UraniumRod.svg"
+          IconIsCustom: True
+          StackingOffsets: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.RelTile3f, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+          AllowPackingNoise: False
+          RotateSecondItem90Degs: False
+          Color: (255, 0, 255, 255)
+          TransportColor: (0, 0, 0, 0)
+          TransportAccentColor: (0, 0, 0, 0)
+      IconPath: "Assets/Base/Products/Icons/UraniumRod.svg"
+      Type: CountableProductProto
+      CanBeLoadedOnTruck: True
+      TrackSourceProducts: True
+      IsMixable: False
+      SlimId: 0
+      DoNotNormalize: False
+      DumpableProduct: None: LooseProductProto
+      SourceProduct: Mafi.Core.PartialProductQuantity
+      Id: Product_UraniumRod
+      Id: Product_UraniumRod
+      Strings: Mafi.Core.Prototypes.Proto+Str
+      IsNotPhantom: True
+      IsInitialized: True
+      Mod: { }
+        {Mafi.Base.BaseMod(HashCode:172583464)}
+        (reference already dumped - line:34)
+      Tags: { }
+        {Mafi.Collections.HybridSet`1+HybridSetNone[[Mafi.Core.Prototypes.Tag, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]](HashCode:399013466)}
+        (reference already dumped - line:41)
+      IsNotAvailable: False
+      IsAvailable: True
+      IsLocked: True
+      IsUnlocked: False
+      IsUnlockedAndAvailable: False
+      IsLockedOrUnavailable: True
+      IsLockedButAvailable: True
+      IsObsolete: False
+      Graphics: { }
+        {Mafi.Core.Products.CountableProductProto+Gfx(HashCode:-1735266248)}
+        (reference already dumped - line:133)
+      MaxQuantityPerTransportedProduct: 3
+      IsStorable: True
+      Radioactivity: 0
+      PinToHomeScreenByDefault: False
+      IsExcludedFromStats: False
+      CanBeDiscarded: False
+      CanBeDestroyedInShipyard: False
+      IsWaste: False
+      IsRecyclable: False
+      IsPhantom: False
+  SpentFuelOutProto: { }
+    {Mafi.Core.Products.CountableProductProto(HashCode:-1100192358)}
+      QuantityFormatter: { }
+        {Mafi.Core.Localization.Quantity.ProductCountQuantityFormatter(HashCode:-1358262852)}
+        (reference already dumped - line:6)
+      Graphics: { }
+        {Mafi.Core.Products.CountableProductProto+Gfx(HashCode:-538514288)}
+          PackingMode: Triangle
+          PrefabsPath: Some: Assets/Base/Products/Countable/SpentFuel.prefab
+          IconPath: "Assets/Base/Products/Icons/SpentFuel.svg"
+          IconIsCustom: True
+          StackingOffsets: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.RelTile3f, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+          AllowPackingNoise: False
+          RotateSecondItem90Degs: False
+          Color: (255, 0, 255, 255)
+          TransportColor: (0, 0, 0, 0)
+          TransportAccentColor: (0, 0, 0, 0)
+      IconPath: "Assets/Base/Products/Icons/SpentFuel.svg"
+      Type: CountableProductProto
+      CanBeLoadedOnTruck: True
+      TrackSourceProducts: True
+      IsMixable: False
+      SlimId: 0
+      DoNotNormalize: False
+      DumpableProduct: None: LooseProductProto
+      SourceProduct: Mafi.Core.PartialProductQuantity
+      Id: Product_SpentFuel
+      Id: Product_SpentFuel
+      Strings: Mafi.Core.Prototypes.Proto+Str
+      IsNotPhantom: True
+      IsInitialized: True
+      Mod: { }
+        {Mafi.Base.BaseMod(HashCode:172583464)}
+        (reference already dumped - line:34)
+      Tags: { }
+        {Mafi.Collections.HybridSet`1+HybridSetNone[[Mafi.Core.Prototypes.Tag, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]](HashCode:399013466)}
+        (reference already dumped - line:41)
+      IsNotAvailable: False
+      IsAvailable: True
+      IsLocked: True
+      IsUnlocked: False
+      IsUnlockedAndAvailable: False
+      IsLockedOrUnavailable: True
+      IsLockedButAvailable: True
+      IsObsolete: False
+      Graphics: { }
+        {Mafi.Core.Products.CountableProductProto+Gfx(HashCode:-538514288)}
+        (reference already dumped - line:191)
+      MaxQuantityPerTransportedProduct: 3
+      IsStorable: True
+      Radioactivity: 2
+      PinToHomeScreenByDefault: False
+      IsExcludedFromStats: False
+      CanBeDiscarded: False
+      CanBeDestroyedInShipyard: False
+      IsWaste: False
+      IsRecyclable: False
+      IsPhantom: False
+  Duration: 1200
+
+
+
+NuclearReactorT2Enrichment
+
+null
+
+
+
+NuclearReactor
+
+{Mafi.Core.Factory.NuclearReactors.NuclearReactorProto(HashCode:-802993602)}
+  EntityType: { }
+  ComputingConsumed: 0
+  Upgrade: { }
+    {Mafi.Core.Prototypes.UpgradeData(HashCode:-6243872)}
+      NextTier: Some: NuclearReactorT2 (NuclearReactorProto)
+      PreviousTier: None: IProtoWithUpgrade
+      SkipFromReplaceFlow: False
+      CannotDowngrade: False
+      CannotSkipUpgrade: False
+      CannotMove: False
+      TierData: { }
+        {Mafi.Core.Prototypes.TierData(HashCode:673144624)}
+          NextTierIndirect: Some: NuclearReactorT2 (NuclearReactorProto)
+          PreviousTierIndirect: None: IProtoWithTiers
+          TierNumberForUi: 0
+  TierData: { }
+    {Mafi.Core.Prototypes.TierData(HashCode:673144624)}
+    (reference already dumped - line:13)
+  Recipes: { }
+    {Mafi.Core.Factory.NuclearReactors.NuclearReactor+Recipe(HashCode:233106520)}
+      Id: Product_UraniumRod
+      AllUserVisibleInputs: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Factory.Recipes.RecipeInput, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      AllUserVisibleOutputs: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Factory.Recipes.RecipeOutput, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      Duration: 400
+      FuelMultiplier: 100.00%
+      FuelPerMinute: 0
+  Layout: { }
+    {Mafi.Core.Entities.Static.Layout.EntityLayout(HashCode:232380872)}
+      CoreSize: (16, 32)
+      SourceLayoutStr: "      [4][4][4][7][7][7][7][7][7][7][7][5][5][5]   
+      [4][5][5][7][7][7][7][7][7][7][7][5][5][5]   
+      [4][5][6][7][7][7][7][7][7][7][7][6][5][5]   
+      [4][5][6][7][7][7][7][7][7][7][7][6][5][5]   
+      [4][4][4][7][7][7][7][7][7][7][7][5][5][5]   
+      [4][4][4][7][7][7][7][7][7][7][7][5][5][5]   
+      [4][4][4][7][7][7][7][7][7][7][7][5][5][5]   
+      [4][4][4][7][7][7][7][7][7][7][7][5][5][5]   
+      [4][4][4][7][7][7][7][7][7][7][7][5][5][5]   
+      [4][4][4][7][7][7][7][7][7][7][7][5][5][5]   
+      [4][4][6][7][7][7][7][7][7][7][7][5][5][5]   
+   [3][4][4][6][7][7][7][7][7][7][7][7][5][5][5]   
+F#>[3][4][4][4][7][7][7][7][7][7][7][7][5][5][5]   
+   [3][4][4][4][7][7][7][7][7][7][7][7][5][5][5]   
+S#<[3][4][4][4][4][4][6][6][6][6][4][4][4][4][4]   
+   [3][4][4][4][4][5][5][5][5][5][5][4][4][4][4][3]
+   [3][4][4][4][6][6][6][6][6][6][6][5][4][4][4][3]
+   [3][4][4][6][6]-3]-3]-3]-3][6][6][6][5][5][4][3]
+   [3][4][5][6]-3]-3]-5]-5]-3]-3]-3][6][6][5][4][3]
+   [3][4]-3]-3]-3]-5]-5]-5]-5]-5]-3]-3]-3][5][4][3]
+   [3][4]-4]-4]-5]-5]-5]-5]-5]-5]-4]-4]-3][5][4][3]
+   [3][4]-4]-4]-5]-5]-5]-5]-5]-5]-4]-4]-3][5][4][3]
+   [3][4]-3]-3]-5]-5]-5]-5]-5]-5]-3]-3]-3][5][4][3]
+   [3][4][5]-3]-3]-5]-5]-5]-5]-5]-3][6][6][5][4][3]
+   [3][4][4][5]-3]-3]-3]-3]-3]-3]-3][6][5][5][4][3]
+      [4][4][4][5][6][6][6][6][6][6][5][4][4][4]   
+         [4][4][4][5][5][5][5][5][5][4][4][4]      
+      D@>[4][4][4][4][4][4][4][4][4][4][4][4]W@>   
+         [4][4][4][4][4][4][4][4][4][4][4][4]      
+      A@>[4][4][4][4][4][4][4][4][4][4][4][4]X@>   
+      B@>[4][4][4][4][4][4][4][4][4][4][4][4]Y@>   
+         [4][4][4][4][4][4][4][4][4][4][4][4]      "
+      LayoutTiles: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Entities.Static.Layout.LayoutTile, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      TerrainVertices: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Entities.Static.Layout.TerrainVertexRel, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      VehicleSurfaceHeights: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[System.Collections.Generic.KeyValuePair`2[[Mafi.RelTile2i, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null],[Mafi.ThicknessTilesF, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+      Ports: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Ports.Io.IoPortTemplate, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      LayoutParams: { }
+        {Mafi.Core.Entities.Static.Layout.EntityLayoutParams(HashCode:-123609976)}
+          EnforceEmptySurface: False
+          IgnoreTilesForCore: None: Predicate`1
+          CustomTokens: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Entities.Static.Layout.CustomLayoutToken, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+          PortsCanOnlyConnectToTransports: False
+          HardenedFloorSurfaceId: DefaultConcrete_TerrainSurface
+          CustomVertexDataLayout: None: String[]
+          CustomVertexTransformFn: None: Func`3
+          CustomCollapseVerticesThreshold: null
+          CustomPlacementRange: null
+          CustomPortHeights: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[System.Collections.Generic.KeyValuePair`2[[System.Char, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+      LayoutMinHeight: -5
+      LayoutSize: (16, 32, 7)
+      OriginTile: null
+      CoreMin: (0, 0)
+      CoreMax: (15, 31)
+      TilesCount: 2640
+      CombinedConstraint: Ground
+      CollapseVerticesThreshold: 22
+      PlacementHeightRange: 0-0
+  Ports: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Ports.Io.IoPortTemplate, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+  CloningDisabled: False
+  IsUnique: False
+  CannotBeReflected: False
+  AutoBuildMiniZippers: False
+  Graphics: { }
+    {Mafi.Core.Factory.NuclearReactors.NuclearReactorProto+Gfx(HashCode:-609716242)}
+      PrefabPath: "Assets/Base/Buildings/NuclearReactors/NuclearReactorT1.prefab"
+      PrefabOrigin: (0, 0, 0)
+      IconPath: "Assets/Unity/Generated/Icons/LayoutEntity/NuclearReactor.png"
+      YawForGeneratedIcon: null
+      VisualizedLayers: Mafi.Core.Entities.Static.Layout.LayoutEntityProto+VisualizedLayers
+      Categories: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Entities.Static.Layout.ToolbarEntryData, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      SoundPrefabPath: Some: Assets/Base/Buildings/NuclearReactors/Shared/ReactorSound.prefab
+      FuelIconPath: Some: Assets/Base/Buildings/NuclearReactors/Shared/MoxReactorFuelIcon.svg
+      MaxEmissionIntensity: 3.5
+      IconIsCustom: False
+      UseInstancedRendering: False
+      UseSemiInstancedRendering: False
+      SemiInstancedRenderingExcludedObjects: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+      MaxRenderedLod: 2147483647
+      DisableEmptyChildrenStripping: False
+      InstancedRendererIndex: 0
+      AnimatedGameObjects: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Collections.ImmutableCollections.ImmutableArray`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Mafi.Collections.IReadOnlySet`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Mafi, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Mafi, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      AnimationLength: 0
+      HideBlockedPortsIcon: False
+      Color: (0, 0, 0, 0)
+      RendererIndex: 0
+  IconPath: "Assets/Unity/Generated/Icons/LayoutEntity/NuclearReactor.png"
+  Id: NuclearReactor
+  Costs: Mafi.Core.Prototypes.EntityCosts
+  Id: NuclearReactor
+  Id: NuclearReactor
+  Strings: Mafi.Core.Prototypes.Proto+Str
+  IsNotPhantom: True
+  IsInitialized: True
+  Mod: { }
+    {Mafi.Base.BaseMod(HashCode:172583464)}
+      Name: "Mafi-Base"
+      Version: 0
+      IsUiOnly: False
+      ModConfig: Some: Mafi.Base.BaseModConfig
+      Config: { }
+        {Mafi.Base.BaseModConfig(HashCode:459842888)}
+          BuildStartingFactory: True
+          TerrainGenerator: Default
+          MapRandomSeed: "MaFi random"
+          DisableWorldMapGenerator: False
+  Tags: { }
+    {Mafi.Collections.HybridSet`1+HybridSetNone[[Mafi.Core.Prototypes.Tag, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]](HashCode:399013466)}
+      Count: 0
+      IsEmpty: True
+      IsNotEmpty: False
+  IsNotAvailable: False
+  IsAvailable: True
+  IsLocked: True
+  IsUnlocked: False
+  IsUnlockedAndAvailable: False
+  IsLockedOrUnavailable: True
+  IsLockedButAvailable: True
+  IsObsolete: False
+  MaxPowerLevel: 3
+  WaterInPerPowerLevel: 16 of Product_Water (fluid)
+  SteamOutPerPowerLevel: 16 of Product_SteamHi (fluid)
+  WaterInPorts: "AB"
+  SteamOutPorts: "XY"
+  ProcessDuration: 100
+  FuelCapacity: 40
+  MinFuelToOperate: 16
+  FuelPairs: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Factory.NuclearReactors.NuclearReactorProto+FuelData, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+  FuelInPort: 'F'
+  FuelOutPort: 'S'
+  CoolantIn: { }
+    {Mafi.Core.Products.FluidProductProto(HashCode:-2146239391)}
+      QuantityFormatter: { }
+        {Mafi.Core.Localization.Quantity.ProductCountQuantityFormatter(HashCode:-1358262852)}
+      Graphics: { }
+        {Mafi.Core.Products.ProductProto+Gfx(HashCode:-1372172834)}
+          PrefabsPath: None: String
+          IconPath: "Assets/Base/Products/Icons/Water.svg"
+          IconIsCustom: True
+          Color: (187, 212, 238, 255)
+          TransportColor: (121, 148, 176, 255)
+          TransportAccentColor: (50, 70, 123, 255)
+      IconPath: "Assets/Base/Products/Icons/Water.svg"
+      Type: FluidProductProto
+      CanBeLoadedOnTruck: True
+      TrackSourceProducts: False
+      IsMixable: False
+      SlimId: 0
+      DoNotNormalize: False
+      DumpableProduct: None: LooseProductProto
+      SourceProduct: Mafi.Core.PartialProductQuantity
+      Id: Product_Water
+      Id: Product_Water
+      Strings: Mafi.Core.Prototypes.Proto+Str
+      IsNotPhantom: True
+      IsInitialized: True
+      Mod: { }
+        {Mafi.Base.BaseMod(HashCode:172583464)}
+        (reference already dumped - line:94)
+      Tags: { }
+        {Mafi.Collections.HybridSet`1+HybridSetNone[[Mafi.Core.Prototypes.Tag, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]](HashCode:399013466)}
+        (reference already dumped - line:106)
+      IsNotAvailable: False
+      IsAvailable: True
+      IsLocked: True
+      IsUnlocked: False
+      IsUnlockedAndAvailable: False
+      IsLockedOrUnavailable: True
+      IsLockedButAvailable: True
+      IsObsolete: False
+      MaxQuantityPerTransportedProduct: 3
+      IsStorable: True
+      Radioactivity: 0
+      PinToHomeScreenByDefault: False
+      IsExcludedFromStats: False
+      CanBeDiscarded: True
+      CanBeDestroyedInShipyard: False
+      IsWaste: False
+      IsRecyclable: False
+      IsPhantom: False
+  CoolantOut: { }
+    {Mafi.Core.Products.FluidProductProto(HashCode:1421893951)}
+      QuantityFormatter: { }
+        {Mafi.Core.Localization.Quantity.ProductCountQuantityFormatter(HashCode:-1358262852)}
+        (reference already dumped - line:132)
+      Graphics: { }
+        {Mafi.Core.Products.ProductProto+Gfx(HashCode:-1667178130)}
+          PrefabsPath: None: String
+          IconPath: "Assets/Base/Products/Icons/SteamDepleated.svg"
+          IconIsCustom: True
+          Color: (204, 204, 204, 255)
+          TransportColor: (170, 170, 170, 255)
+          TransportAccentColor: (85, 85, 85, 255)
+      IconPath: "Assets/Base/Products/Icons/SteamDepleated.svg"
+      Type: FluidProductProto
+      CanBeLoadedOnTruck: False
+      TrackSourceProducts: False
+      IsMixable: False
+      SlimId: 0
+      DoNotNormalize: False
+      DumpableProduct: None: LooseProductProto
+      SourceProduct: Mafi.Core.PartialProductQuantity
+      Id: Product_SteamDepleted
+      Id: Product_SteamDepleted
+      Strings: Mafi.Core.Prototypes.Proto+Str
+      IsNotPhantom: True
+      IsInitialized: True
+      Mod: { }
+        {Mafi.Base.BaseMod(HashCode:172583464)}
+        (reference already dumped - line:94)
+      Tags: { }
+        {Mafi.Collections.HybridSet`1+HybridSetNone[[Mafi.Core.Prototypes.Tag, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]](HashCode:399013466)}
+        (reference already dumped - line:106)
+      IsNotAvailable: False
+      IsAvailable: True
+      IsLocked: True
+      IsUnlocked: False
+      IsUnlockedAndAvailable: False
+      IsLockedOrUnavailable: True
+      IsLockedButAvailable: True
+      IsObsolete: False
+      MaxQuantityPerTransportedProduct: 3
+      IsStorable: False
+      Radioactivity: 0
+      PinToHomeScreenByDefault: False
+      IsExcludedFromStats: False
+      CanBeDiscarded: True
+      CanBeDestroyedInShipyard: False
+      IsWaste: False
+      IsRecyclable: False
+      IsPhantom: False
+  CoolantInPort: 'D'
+  CoolantOutPort: 'W'
+  LeakRadiationOnMeltdown: True
+  DestroyFuelOnMeltdown: False
+  Enrichment: None: EnrichmentData
+  Graphics: { }
+    {Mafi.Core.Factory.NuclearReactors.NuclearReactorProto+Gfx(HashCode:-609716242)}
+    (reference already dumped - line:63)
+  BoostCost: null
+  InputPorts: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Ports.Io.IoPortTemplate, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+  OutputPorts: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Ports.Io.IoPortTemplate, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+  CannotBeBuiltByPlayer: False
+  ConstructionDurationPerProduct: 2
+  CollapseRubbleScale: 100.00%
+  CustomBuriedTolerance: null
+  CustomSuspendedTolerance: null
+  VehicleGoalHeightAllowedRange: 0-0
+  DoNotStartConstructionAutomatically: False
+  Graphics: { }
+    {Mafi.Core.Factory.NuclearReactors.NuclearReactorProto+Gfx(HashCode:-609716242)}
+    (reference already dumped - line:63)
+  Graphics: { }
+    {Mafi.Core.Factory.NuclearReactors.NuclearReactorProto+Gfx(HashCode:-609716242)}
+    (reference already dumped - line:63)
+  IsPhantom: False
+
+
+
+NuclearReactorFuelPairs
+
+{Mafi.Core.Factory.NuclearReactors.NuclearReactorProto+FuelData(HashCode:-654324282)}
+  IsEmpty: False
+  FuelInProto: { }
+    {Mafi.Core.Products.CountableProductProto(HashCode:113083156)}
+      QuantityFormatter: { }
+        {Mafi.Core.Localization.Quantity.ProductCountQuantityFormatter(HashCode:-1358262852)}
+      Graphics: { }
+        {Mafi.Core.Products.CountableProductProto+Gfx(HashCode:-1735266248)}
+          PackingMode: Auto
+          PrefabsPath: Some: Assets/Base/Products/Countable/UraniumRod.prefab
+          IconPath: "Assets/Base/Products/Icons/UraniumRod.svg"
+          IconIsCustom: True
+          StackingOffsets: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.RelTile3f, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+          AllowPackingNoise: False
+          RotateSecondItem90Degs: False
+          Color: (255, 0, 255, 255)
+          TransportColor: (0, 0, 0, 0)
+          TransportAccentColor: (0, 0, 0, 0)
+      IconPath: "Assets/Base/Products/Icons/UraniumRod.svg"
+      Type: CountableProductProto
+      CanBeLoadedOnTruck: True
+      TrackSourceProducts: True
+      IsMixable: False
+      SlimId: 0
+      DoNotNormalize: False
+      DumpableProduct: None: LooseProductProto
+      SourceProduct: Mafi.Core.PartialProductQuantity
+      Id: Product_UraniumRod
+      Id: Product_UraniumRod
+      Strings: Mafi.Core.Prototypes.Proto+Str
+      IsNotPhantom: True
+      IsInitialized: True
+      Mod: { }
+        {Mafi.Base.BaseMod(HashCode:172583464)}
+          Name: "Mafi-Base"
+          Version: 0
+          IsUiOnly: False
+          ModConfig: Some: Mafi.Base.BaseModConfig
+          Config: { }
+      Tags: { }
+        {Mafi.Collections.HybridSet`1+HybridSetNone[[Mafi.Core.Prototypes.Tag, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]](HashCode:399013466)}
+          Count: 0
+          IsEmpty: True
+          IsNotEmpty: False
+      IsNotAvailable: False
+      IsAvailable: True
+      IsLocked: True
+      IsUnlocked: False
+      IsUnlockedAndAvailable: False
+      IsLockedOrUnavailable: True
+      IsLockedButAvailable: True
+      IsObsolete: False
+      Graphics: { }
+        {Mafi.Core.Products.CountableProductProto+Gfx(HashCode:-1735266248)}
+        (reference already dumped - line:8)
+      MaxQuantityPerTransportedProduct: 3
+      IsStorable: True
+      Radioactivity: 0
+      PinToHomeScreenByDefault: False
+      IsExcludedFromStats: False
+      CanBeDiscarded: False
+      CanBeDestroyedInShipyard: False
+      IsWaste: False
+      IsRecyclable: False
+      IsPhantom: False
+  SpentFuelOutProto: { }
+    {Mafi.Core.Products.CountableProductProto(HashCode:-1100192358)}
+      QuantityFormatter: { }
+        {Mafi.Core.Localization.Quantity.ProductCountQuantityFormatter(HashCode:-1358262852)}
+        (reference already dumped - line:6)
+      Graphics: { }
+        {Mafi.Core.Products.CountableProductProto+Gfx(HashCode:-538514288)}
+          PackingMode: Triangle
+          PrefabsPath: Some: Assets/Base/Products/Countable/SpentFuel.prefab
+          IconPath: "Assets/Base/Products/Icons/SpentFuel.svg"
+          IconIsCustom: True
+          StackingOffsets: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.RelTile3f, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+          AllowPackingNoise: False
+          RotateSecondItem90Degs: False
+          Color: (255, 0, 255, 255)
+          TransportColor: (0, 0, 0, 0)
+          TransportAccentColor: (0, 0, 0, 0)
+      IconPath: "Assets/Base/Products/Icons/SpentFuel.svg"
+      Type: CountableProductProto
+      CanBeLoadedOnTruck: True
+      TrackSourceProducts: True
+      IsMixable: False
+      SlimId: 0
+      DoNotNormalize: False
+      DumpableProduct: None: LooseProductProto
+      SourceProduct: Mafi.Core.PartialProductQuantity
+      Id: Product_SpentFuel
+      Id: Product_SpentFuel
+      Strings: Mafi.Core.Prototypes.Proto+Str
+      IsNotPhantom: True
+      IsInitialized: True
+      Mod: { }
+        {Mafi.Base.BaseMod(HashCode:172583464)}
+        (reference already dumped - line:34)
+      Tags: { }
+        {Mafi.Collections.HybridSet`1+HybridSetNone[[Mafi.Core.Prototypes.Tag, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]](HashCode:399013466)}
+        (reference already dumped - line:41)
+      IsNotAvailable: False
+      IsAvailable: True
+      IsLocked: True
+      IsUnlocked: False
+      IsUnlockedAndAvailable: False
+      IsLockedOrUnavailable: True
+      IsLockedButAvailable: True
+      IsObsolete: False
+      Graphics: { }
+        {Mafi.Core.Products.CountableProductProto+Gfx(HashCode:-538514288)}
+        (reference already dumped - line:72)
+      MaxQuantityPerTransportedProduct: 3
+      IsStorable: True
+      Radioactivity: 2
+      PinToHomeScreenByDefault: False
+      IsExcludedFromStats: False
+      CanBeDiscarded: False
+      CanBeDestroyedInShipyard: False
+      IsWaste: False
+      IsRecyclable: False
+      IsPhantom: False
+  Duration: 1200
+
+
+
+NuclearReactorEnrichment
+
+null
+
+
+
+FastBreederReactor
+
+{Mafi.Core.Factory.NuclearReactors.NuclearReactorProto(HashCode:-1334360325)}
+  EntityType: { }
+  ComputingConsumed: 18
+  Upgrade: { }
+    {Mafi.Core.Prototypes.UpgradeData(HashCode:259786040)}
+      NextTier: None: IProtoWithUpgrade
+      PreviousTier: None: IProtoWithUpgrade
+      SkipFromReplaceFlow: False
+      CannotDowngrade: False
+      CannotSkipUpgrade: False
+      CannotMove: False
+      TierData: { }
+        {Mafi.Core.Prototypes.TierData(HashCode:1139062752)}
+          NextTierIndirect: None: IProtoWithTiers
+          PreviousTierIndirect: Some: NuclearReactorT2 (NuclearReactorProto)
+          TierNumberForUi: 0
+  TierData: { }
+    {Mafi.Core.Prototypes.TierData(HashCode:1139062752)}
+    (reference already dumped - line:13)
+  Recipes: { }
+    {Mafi.Core.Factory.NuclearReactors.NuclearReactor+Recipe(HashCode:499136432)}
+      Id: Product_CoreFuel
+      AllUserVisibleInputs: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Factory.Recipes.RecipeInput, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      AllUserVisibleOutputs: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Factory.Recipes.RecipeOutput, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      Duration: 600
+      FuelMultiplier: 100.00%
+      FuelPerMinute: 16
+    {Mafi.Core.Factory.Recipes.RecipeForUiData(HashCode:1321910486)}
+      Id: RecipeForUiData
+      AllUserVisibleInputs: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Factory.Recipes.RecipeInput, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      AllUserVisibleOutputs: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Factory.Recipes.RecipeOutput, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      Duration: 600
+  Layout: { }
+    {Mafi.Core.Entities.Static.Layout.EntityLayout(HashCode:-302822570)}
+      CoreSize: (21, 45)
+      SourceLayoutStr: "   [3][3][3][3][3][3][8][8][8][8][8][8][8][8][8][8][8][5][5][5][2]
+   [3][3][3][3][3][3][8][8][8][8][8][8][8][8][8][8][8][5][5][5][2]
+   [6][6][6][6][6][6][8][8][8][8][8][8][8][8][8][8][8][5][5][5][2]
+   [6][6][6][6][6][6][8][8][8][8][8][8][8][8][8][8][8][5][5][5][2]
+   [6][6][6][6][6][6][8][8][8][8][8][8][8][8][8][8][8][5][5][5][2]
+   [6][6][6][6][6][6][8][8][8][8][8][8][8][8][8][8][8][6][6][6][2]
+   [6][6][6][6][6][6][8][8][8][8][8][8][8][8][8][8][8][6][6][6][2]
+F@>[6][6][6][6][6][6][8][8][8][8][8][8][8][8][8][8][8][6][6][6][2]
+S@<[6][6][6][6][6][6][8][8][8][8][8][8][8][8][8][8][8][6][6][6][2]
+   [6][6][6][6][6][6][8][8][8][8][8][8][8][8][8][8][8][6][6][6][2]
+   [6][6][6][6][6][6][8][8][8][8][8][8][8][8][8][8][8][6][6][6][2]
+Q@>[6][6][6][6][6][6][8][8][8][8][8][8][8][8][8][8][8][6][6][6][2]
+E@<[6][6][6][6][6][6][8][8][8][8][8][8][8][8][8][8][8][6][6][6][2]
+   [6][6][6][6][6][6][8][8][8][8][8][8][8][8][8][8][8][6][6][6][2]
+   [6][6][6][6][6][6][8][8][8][8][8][8][8][8][8][8][8][6][6][6][2]
+   [6][6][6][6][6][6][8][8][8][8][8][8][8][8][8][8][8][6][6][6][2]
+   [6][6][6][6][6][6][8][8][8][8][8][8][8][8][8][8][8][6][4][4][2]
+   [6][6][6][6][6][6][8][8][8][8][8][8][8][8][8][8][8][6][4][4][2]
+   [6][6][6][6][6][6][8][8][8][8][8][8][8][8][8][8][8][6][4][4][2]
+   [6][6][6][6][6][6][8][8][8][8][8][8][8][8][8][8][8][6][4][4][2]
+   [9![9![9![4][4][4][8][8][8][8][8][8][8][8][8][8][8][6][4][4][2]
+   [9![9![9![4][4][4][8][8][8][8][8][8][8][8][8][8][8][6][4][4][2]
+   [2][3][3][4][4][4][8][8][8][8][8][8][8][8][8][8][8][6][4][4][2]
+   [2][3][3][4][4][4][8][8][8][8][8][8][8][8][8][8][8][6][4][4][2]
+   [2][3][3][4][4][4][8][8][8][8][8][8][8][8][8][8][8][6][4][4][2]
+   [2][3][3][4][4][4][8][8][8][8][8][8][8][8][8][8][8][6][4][4][2]
+   [2][3][3][4][4][4][8][8][8][8][8][8][8][8][8][8][8][6][4][4][2]
+   [2][3][3][4][4][4][7][7][7][7][7][7][7][7][7][7][7][6][4][4][2]
+   [2][3][3][4][4][4][7][7][7][7][7][7][7][7][7][7][7][7][4][4][2]
+   [2][3][3][4][4][4][7][7][7][7][9][9][9][9][9][9][7][7][7][4][2]
+   [2][3][3][4][4][4][7][7][7][9][9][9][9][9][9][9][9][7][7][7][2]
+   [2][3][3][4][4][4][7][7][9][7![7![7![7![7![7![7![7![9][7][7][2]
+   [2][3][3][4][4][4][7][7][9][7![7![7![7![7![7![7![7![9][7][7][2]
+   [2][3][3][4][4][4][7][7][9][7![7![7![7![7![7![7![7![9][7][7][2]
+   [2][3][3][4][4][4][7][7][9][7![7![7![7![7![7![7![7![9][7][7][2]
+   [2][3][3][4][4][4][7][7][9][7![7![7![7![7![7![7![7![9][7][7]   
+                  [4][7][7][9][9][9][7![7![7![7![9][9][9][7][7]   
+                     [7][7][7][9][9][9][9][9][9][9][9][7][7][7]   
+                        [7][7][7][9][9][9][9][9][9][7][7][7]      
+                        [7][7][7][7][7][7][7][7][7][7][7][7]      
+                     D@>[4][4][4][7][7][7][7][7][7][4][4][4]W@>   
+                        [4][4][4][4][4][4][4][4][4][4][4][4]      
+                     A@>[4][4][4][4][4][4][4][4][4][4][4][4]X@>   
+                     B@>[4][4][4][4][4][4][4][4][4][4][4][4]Y@>   
+                        [4][4][4][4][4][4][4][4][4][4][4][4]      "
+      LayoutTiles: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Entities.Static.Layout.LayoutTile, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      TerrainVertices: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Entities.Static.Layout.TerrainVertexRel, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      VehicleSurfaceHeights: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[System.Collections.Generic.KeyValuePair`2[[Mafi.RelTile2i, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null],[Mafi.ThicknessTilesF, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+      Ports: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Ports.Io.IoPortTemplate, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      LayoutParams: { }
+        {Mafi.Core.Entities.Static.Layout.EntityLayoutParams(HashCode:-885031456)}
+          EnforceEmptySurface: False
+          IgnoreTilesForCore: None: Predicate`1
+          CustomTokens: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Entities.Static.Layout.CustomLayoutToken, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+          PortsCanOnlyConnectToTransports: False
+          HardenedFloorSurfaceId: DefaultConcrete_TerrainSurface
+          CustomVertexDataLayout: None: String[]
+          CustomVertexTransformFn: None: Func`3
+          CustomCollapseVerticesThreshold: null
+          CustomPlacementRange: null
+          CustomPortHeights: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[System.Collections.Generic.KeyValuePair`2[[System.Char, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+      LayoutMinHeight: 0
+      LayoutSize: (21, 45, 13)
+      OriginTile: null
+      CoreMin: (0, 0)
+      CoreMax: (20, 44)
+      TilesCount: 5695
+      CombinedConstraint: Ground
+      CollapseVerticesThreshold: 30
+      PlacementHeightRange: 0-0
+  Ports: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Ports.Io.IoPortTemplate, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+  CloningDisabled: False
+  IsUnique: False
+  CannotBeReflected: False
+  AutoBuildMiniZippers: False
+  Graphics: { }
+    {Mafi.Core.Factory.NuclearReactors.NuclearReactorProto+Gfx(HashCode:-905569292)}
+      PrefabPath: "Assets/Base/Buildings/NuclearReactors/FastReactor.prefab"
+      PrefabOrigin: (0, 0, 0)
+      IconPath: "Assets/Unity/Generated/Icons/LayoutEntity/FastBreederReactor.png"
+      YawForGeneratedIcon: null
+      VisualizedLayers: Mafi.Core.Entities.Static.Layout.LayoutEntityProto+VisualizedLayers
+      Categories: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Entities.Static.Layout.ToolbarEntryData, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      SoundPrefabPath: Some: Assets/Base/Buildings/NuclearReactors/Shared/ReactorSound.prefab
+      FuelIconPath: None: String
+      MaxEmissionIntensity: 9
+      IconIsCustom: False
+      UseInstancedRendering: False
+      UseSemiInstancedRendering: False
+      SemiInstancedRenderingExcludedObjects: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+      MaxRenderedLod: 2147483647
+      DisableEmptyChildrenStripping: False
+      InstancedRendererIndex: 0
+      AnimatedGameObjects: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Collections.ImmutableCollections.ImmutableArray`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Mafi.Collections.IReadOnlySet`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Mafi, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Mafi, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      AnimationLength: 0
+      HideBlockedPortsIcon: False
+      Color: (0, 0, 0, 0)
+      RendererIndex: 0
+  IconPath: "Assets/Unity/Generated/Icons/LayoutEntity/FastBreederReactor.png"
+  Id: FastBreederReactor
+  Costs: Mafi.Core.Prototypes.EntityCosts
+  Id: FastBreederReactor
+  Id: FastBreederReactor
+  Strings: Mafi.Core.Prototypes.Proto+Str
+  IsNotPhantom: True
+  IsInitialized: True
+  Mod: { }
+    {Mafi.Base.BaseMod(HashCode:172583464)}
+      Name: "Mafi-Base"
+      Version: 0
+      IsUiOnly: False
+      ModConfig: Some: Mafi.Base.BaseModConfig
+      Config: { }
+        {Mafi.Base.BaseModConfig(HashCode:459842888)}
+          BuildStartingFactory: True
+          TerrainGenerator: Default
+          MapRandomSeed: "MaFi random"
+          DisableWorldMapGenerator: False
+  Tags: { }
+    {Mafi.Collections.HybridSet`1+HybridSetNone[[Mafi.Core.Prototypes.Tag, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]](HashCode:399013466)}
+      Count: 0
+      IsEmpty: True
+      IsNotEmpty: False
+  IsNotAvailable: False
+  IsAvailable: True
+  IsLocked: True
+  IsUnlocked: False
+  IsUnlockedAndAvailable: False
+  IsLockedOrUnavailable: True
+  IsLockedButAvailable: True
+  IsObsolete: False
+  MaxPowerLevel: 4
+  WaterInPerPowerLevel: 16 of Product_Water (fluid)
+  SteamOutPerPowerLevel: 16 of Product_SteamSp (fluid)
+  WaterInPorts: "AB"
+  SteamOutPorts: "XY"
+  ProcessDuration: 100
+  FuelCapacity: 160
+  MinFuelToOperate: 80
+  FuelPairs: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Factory.NuclearReactors.NuclearReactorProto+FuelData, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+  FuelInPort: 'F'
+  FuelOutPort: 'S'
+  CoolantIn: { }
+    {Mafi.Core.Products.FluidProductProto(HashCode:-2146239391)}
+      QuantityFormatter: { }
+        {Mafi.Core.Localization.Quantity.ProductCountQuantityFormatter(HashCode:-1358262852)}
+      Graphics: { }
+        {Mafi.Core.Products.ProductProto+Gfx(HashCode:-1372172834)}
+          PrefabsPath: None: String
+          IconPath: "Assets/Base/Products/Icons/Water.svg"
+          IconIsCustom: True
+          Color: (187, 212, 238, 255)
+          TransportColor: (121, 148, 176, 255)
+          TransportAccentColor: (50, 70, 123, 255)
+      IconPath: "Assets/Base/Products/Icons/Water.svg"
+      Type: FluidProductProto
+      CanBeLoadedOnTruck: True
+      TrackSourceProducts: False
+      IsMixable: False
+      SlimId: 0
+      DoNotNormalize: False
+      DumpableProduct: None: LooseProductProto
+      SourceProduct: Mafi.Core.PartialProductQuantity
+      Id: Product_Water
+      Id: Product_Water
+      Strings: Mafi.Core.Prototypes.Proto+Str
+      IsNotPhantom: True
+      IsInitialized: True
+      Mod: { }
+        {Mafi.Base.BaseMod(HashCode:172583464)}
+        (reference already dumped - line:99)
+      Tags: { }
+        {Mafi.Collections.HybridSet`1+HybridSetNone[[Mafi.Core.Prototypes.Tag, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]](HashCode:399013466)}
+        (reference already dumped - line:111)
+      IsNotAvailable: False
+      IsAvailable: True
+      IsLocked: True
+      IsUnlocked: False
+      IsUnlockedAndAvailable: False
+      IsLockedOrUnavailable: True
+      IsLockedButAvailable: True
+      IsObsolete: False
+      MaxQuantityPerTransportedProduct: 3
+      IsStorable: True
+      Radioactivity: 0
+      PinToHomeScreenByDefault: False
+      IsExcludedFromStats: False
+      CanBeDiscarded: True
+      CanBeDestroyedInShipyard: False
+      IsWaste: False
+      IsRecyclable: False
+      IsPhantom: False
+  CoolantOut: { }
+    {Mafi.Core.Products.FluidProductProto(HashCode:1421893951)}
+      QuantityFormatter: { }
+        {Mafi.Core.Localization.Quantity.ProductCountQuantityFormatter(HashCode:-1358262852)}
+        (reference already dumped - line:137)
+      Graphics: { }
+        {Mafi.Core.Products.ProductProto+Gfx(HashCode:-1667178130)}
+          PrefabsPath: None: String
+          IconPath: "Assets/Base/Products/Icons/SteamDepleated.svg"
+          IconIsCustom: True
+          Color: (204, 204, 204, 255)
+          TransportColor: (170, 170, 170, 255)
+          TransportAccentColor: (85, 85, 85, 255)
+      IconPath: "Assets/Base/Products/Icons/SteamDepleated.svg"
+      Type: FluidProductProto
+      CanBeLoadedOnTruck: False
+      TrackSourceProducts: False
+      IsMixable: False
+      SlimId: 0
+      DoNotNormalize: False
+      DumpableProduct: None: LooseProductProto
+      SourceProduct: Mafi.Core.PartialProductQuantity
+      Id: Product_SteamDepleted
+      Id: Product_SteamDepleted
+      Strings: Mafi.Core.Prototypes.Proto+Str
+      IsNotPhantom: True
+      IsInitialized: True
+      Mod: { }
+        {Mafi.Base.BaseMod(HashCode:172583464)}
+        (reference already dumped - line:99)
+      Tags: { }
+        {Mafi.Collections.HybridSet`1+HybridSetNone[[Mafi.Core.Prototypes.Tag, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]](HashCode:399013466)}
+        (reference already dumped - line:111)
+      IsNotAvailable: False
+      IsAvailable: True
+      IsLocked: True
+      IsUnlocked: False
+      IsUnlockedAndAvailable: False
+      IsLockedOrUnavailable: True
+      IsLockedButAvailable: True
+      IsObsolete: False
+      MaxQuantityPerTransportedProduct: 3
+      IsStorable: False
+      Radioactivity: 0
+      PinToHomeScreenByDefault: False
+      IsExcludedFromStats: False
+      CanBeDiscarded: True
+      CanBeDestroyedInShipyard: False
+      IsWaste: False
+      IsRecyclable: False
+      IsPhantom: False
+  CoolantInPort: 'D'
+  CoolantOutPort: 'W'
+  LeakRadiationOnMeltdown: False
+  DestroyFuelOnMeltdown: True
+  Enrichment: Some: Mafi.Core.Factory.NuclearReactors.NuclearReactorProto+EnrichmentData
+  Graphics: { }
+    {Mafi.Core.Factory.NuclearReactors.NuclearReactorProto+Gfx(HashCode:-905569292)}
+    (reference already dumped - line:68)
+  BoostCost: null
+  InputPorts: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Ports.Io.IoPortTemplate, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+  OutputPorts: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Ports.Io.IoPortTemplate, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+  CannotBeBuiltByPlayer: False
+  ConstructionDurationPerProduct: 2
+  CollapseRubbleScale: 100.00%
+  CustomBuriedTolerance: null
+  CustomSuspendedTolerance: null
+  VehicleGoalHeightAllowedRange: 0-0
+  DoNotStartConstructionAutomatically: False
+  Graphics: { }
+    {Mafi.Core.Factory.NuclearReactors.NuclearReactorProto+Gfx(HashCode:-905569292)}
+    (reference already dumped - line:68)
+  Graphics: { }
+    {Mafi.Core.Factory.NuclearReactors.NuclearReactorProto+Gfx(HashCode:-905569292)}
+    (reference already dumped - line:68)
+  IsPhantom: False
+
+
+
+FastBreederReactorFuelPairs
+
+{Mafi.Core.Factory.NuclearReactors.NuclearReactorProto+FuelData(HashCode:-1020849072)}
+  IsEmpty: False
+  FuelInProto: { }
+    {Mafi.Core.Products.FluidProductProto(HashCode:-1197538827)}
+      QuantityFormatter: { }
+        {Mafi.Core.Localization.Quantity.ProductCountQuantityFormatter(HashCode:-1358262852)}
+      Graphics: { }
+        {Mafi.Core.Products.ProductProto+Gfx(HashCode:1282604338)}
+          PrefabsPath: None: String
+          IconPath: "Assets/Base/Products/Icons/CoreFuel.svg"
+          IconIsCustom: True
+          Color: (181, 61, 62, 255)
+          TransportColor: (167, 125, 125, 255)
+          TransportAccentColor: (85, 44, 44, 255)
+      IconPath: "Assets/Base/Products/Icons/CoreFuel.svg"
+      Type: FluidProductProto
+      CanBeLoadedOnTruck: False
+      TrackSourceProducts: False
+      IsMixable: False
+      SlimId: 0
+      DoNotNormalize: False
+      DumpableProduct: None: LooseProductProto
+      SourceProduct: Mafi.Core.PartialProductQuantity
+      Id: Product_CoreFuel
+      Id: Product_CoreFuel
+      Strings: Mafi.Core.Prototypes.Proto+Str
+      IsNotPhantom: True
+      IsInitialized: True
+      Mod: { }
+        {Mafi.Base.BaseMod(HashCode:172583464)}
+          Name: "Mafi-Base"
+          Version: 0
+          IsUiOnly: False
+          ModConfig: Some: Mafi.Base.BaseModConfig
+          Config: { }
+      Tags: { }
+        {Mafi.Collections.HybridSet`1+HybridSetNone[[Mafi.Core.Prototypes.Tag, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]](HashCode:399013466)}
+          Count: 0
+          IsEmpty: True
+          IsNotEmpty: False
+      IsNotAvailable: False
+      IsAvailable: True
+      IsLocked: True
+      IsUnlocked: False
+      IsUnlockedAndAvailable: False
+      IsLockedOrUnavailable: True
+      IsLockedButAvailable: True
+      IsObsolete: False
+      MaxQuantityPerTransportedProduct: 3
+      IsStorable: False
+      Radioactivity: 0
+      PinToHomeScreenByDefault: False
+      IsExcludedFromStats: False
+      CanBeDiscarded: True
+      CanBeDestroyedInShipyard: False
+      IsWaste: False
+      IsRecyclable: False
+      IsPhantom: False
+  SpentFuelOutProto: { }
+    {Mafi.Core.Products.FluidProductProto(HashCode:462830283)}
+      QuantityFormatter: { }
+        {Mafi.Core.Localization.Quantity.ProductCountQuantityFormatter(HashCode:-1358262852)}
+        (reference already dumped - line:6)
+      Graphics: { }
+        {Mafi.Core.Products.ProductProto+Gfx(HashCode:747400896)}
+          PrefabsPath: None: String
+          IconPath: "Assets/Base/Products/Icons/CoreFuelDirty.svg"
+          IconIsCustom: True
+          Color: (162, 99, 0, 255)
+          TransportColor: (152, 130, 102, 255)
+          TransportAccentColor: (85, 44, 44, 255)
+      IconPath: "Assets/Base/Products/Icons/CoreFuelDirty.svg"
+      Type: FluidProductProto
+      CanBeLoadedOnTruck: False
+      TrackSourceProducts: False
+      IsMixable: False
+      SlimId: 0
+      DoNotNormalize: False
+      DumpableProduct: None: LooseProductProto
+      SourceProduct: Mafi.Core.PartialProductQuantity
+      Id: Product_CoreFuelDirty
+      Id: Product_CoreFuelDirty
+      Strings: Mafi.Core.Prototypes.Proto+Str
+      IsNotPhantom: True
+      IsInitialized: True
+      Mod: { }
+        {Mafi.Base.BaseMod(HashCode:172583464)}
+        (reference already dumped - line:30)
+      Tags: { }
+        {Mafi.Collections.HybridSet`1+HybridSetNone[[Mafi.Core.Prototypes.Tag, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]](HashCode:399013466)}
+        (reference already dumped - line:37)
+      IsNotAvailable: False
+      IsAvailable: True
+      IsLocked: True
+      IsUnlocked: False
+      IsUnlockedAndAvailable: False
+      IsLockedOrUnavailable: True
+      IsLockedButAvailable: True
+      IsObsolete: False
+      MaxQuantityPerTransportedProduct: 3
+      IsStorable: False
+      Radioactivity: 0
+      PinToHomeScreenByDefault: False
+      IsExcludedFromStats: False
+      CanBeDiscarded: True
+      CanBeDestroyedInShipyard: False
+      IsWaste: False
+      IsRecyclable: False
+      IsPhantom: False
+  Duration: 150
+
+
+
+FastBreederReactorEnrichment
+
+{Mafi.Core.Factory.NuclearReactors.NuclearReactorProto+EnrichmentData(HashCode:20435648)}
+  InputProduct: { }
+    {Mafi.Core.Products.FluidProductProto(HashCode:-1040567499)}
+      QuantityFormatter: { }
+        {Mafi.Core.Localization.Quantity.ProductCountQuantityFormatter(HashCode:-1358262852)}
+      Graphics: { }
+        {Mafi.Core.Products.ProductProto+Gfx(HashCode:-2111464048)}
+          PrefabsPath: None: String
+          IconPath: "Assets/Base/Products/Icons/BlanketFuel.svg"
+          IconIsCustom: True
+          Color: (57, 129, 201, 255)
+          TransportColor: (134, 148, 167, 255)
+          TransportAccentColor: (85, 44, 44, 255)
+      IconPath: "Assets/Base/Products/Icons/BlanketFuel.svg"
+      Type: FluidProductProto
+      CanBeLoadedOnTruck: False
+      TrackSourceProducts: False
+      IsMixable: False
+      SlimId: 0
+      DoNotNormalize: False
+      DumpableProduct: None: LooseProductProto
+      SourceProduct: Mafi.Core.PartialProductQuantity
+      Id: Product_BlanketFuel
+      Id: Product_BlanketFuel
+      Strings: Mafi.Core.Prototypes.Proto+Str
+      IsNotPhantom: True
+      IsInitialized: True
+      Mod: { }
+        {Mafi.Base.BaseMod(HashCode:172583464)}
+          Name: "Mafi-Base"
+          Version: 0
+          IsUiOnly: False
+          ModConfig: Some: Mafi.Base.BaseModConfig
+          Config: { }
+      Tags: { }
+        {Mafi.Collections.HybridSet`1+HybridSetNone[[Mafi.Core.Prototypes.Tag, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]](HashCode:399013466)}
+          Count: 0
+          IsEmpty: True
+          IsNotEmpty: False
+      IsNotAvailable: False
+      IsAvailable: True
+      IsLocked: True
+      IsUnlocked: False
+      IsUnlockedAndAvailable: False
+      IsLockedOrUnavailable: True
+      IsLockedButAvailable: True
+      IsObsolete: False
+      MaxQuantityPerTransportedProduct: 3
+      IsStorable: False
+      Radioactivity: 0
+      PinToHomeScreenByDefault: False
+      IsExcludedFromStats: False
+      CanBeDiscarded: True
+      CanBeDestroyedInShipyard: False
+      IsWaste: False
+      IsRecyclable: False
+      IsPhantom: False
+  InPort: 'Q'
+  OutputProduct: { }
+    {Mafi.Core.Products.FluidProductProto(HashCode:1273525687)}
+      QuantityFormatter: { }
+        {Mafi.Core.Localization.Quantity.ProductCountQuantityFormatter(HashCode:-1358262852)}
+        (reference already dumped - line:5)
+      Graphics: { }
+        {Mafi.Core.Products.ProductProto+Gfx(HashCode:1648299806)}
+          PrefabsPath: None: String
+          IconPath: "Assets/Base/Products/Icons/BlanketFuelEnriched.svg"
+          IconIsCustom: True
+          Color: (160, 134, 227, 255)
+          TransportColor: (146, 139, 167, 255)
+          TransportAccentColor: (85, 44, 44, 255)
+      IconPath: "Assets/Base/Products/Icons/BlanketFuelEnriched.svg"
+      Type: FluidProductProto
+      CanBeLoadedOnTruck: False
+      TrackSourceProducts: False
+      IsMixable: False
+      SlimId: 0
+      DoNotNormalize: False
+      DumpableProduct: None: LooseProductProto
+      SourceProduct: Mafi.Core.PartialProductQuantity
+      Id: Product_BlanketFuelEnriched
+      Id: Product_BlanketFuelEnriched
+      Strings: Mafi.Core.Prototypes.Proto+Str
+      IsNotPhantom: True
+      IsInitialized: True
+      Mod: { }
+        {Mafi.Base.BaseMod(HashCode:172583464)}
+        (reference already dumped - line:29)
+      Tags: { }
+        {Mafi.Collections.HybridSet`1+HybridSetNone[[Mafi.Core.Prototypes.Tag, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]](HashCode:399013466)}
+        (reference already dumped - line:36)
+      IsNotAvailable: False
+      IsAvailable: True
+      IsLocked: True
+      IsUnlocked: False
+      IsUnlockedAndAvailable: False
+      IsLockedOrUnavailable: True
+      IsLockedButAvailable: True
+      IsObsolete: False
+      MaxQuantityPerTransportedProduct: 3
+      IsStorable: False
+      Radioactivity: 0
+      PinToHomeScreenByDefault: False
+      IsExcludedFromStats: False
+      CanBeDiscarded: True
+      CanBeDestroyedInShipyard: False
+      IsWaste: False
+      IsRecyclable: False
+      IsPhantom: False
+  OutPort: 'E'
+  ProcessedPerLevel: 1
+  BuffersCapacity: 320
+  DestroyContentOnMeltdown: True
+  EnrichmentSteps: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Factory.NuclearReactors.NuclearReactorProto+EnrichmentStepData, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+  DefaultEnrichmentStep: 1
+
+
+
+WasteSortingPlant
+
+{Mafi.Core.Buildings.Waste.WasteSortingPlantProto(HashCode:-1451478875)}
+  EntityType: { }
+  Duration: 200
+  Upgrade: { }
+    {Mafi.Core.Prototypes.UpgradeData(HashCode:-1391668144)}
+      NextTier: None: IProtoWithUpgrade
+      PreviousTier: None: IProtoWithUpgrade
+      SkipFromReplaceFlow: False
+      CannotDowngrade: False
+      CannotSkipUpgrade: False
+      CannotMove: False
+      TierData: { }
+        {Mafi.Core.Prototypes.TierData(HashCode:-1411872402)}
+          NextTierIndirect: None: IProtoWithTiers
+          PreviousTierIndirect: None: IProtoWithTiers
+          TierNumberForUi: 0
+  TierData: { }
+    {Mafi.Core.Prototypes.TierData(HashCode:-1411872402)}
+    (reference already dumped - line:13)
+  ElectricityConsumed: 300
+  AnimationParams: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Entities.Animations.AnimationParams, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+  Recipes: { }
+    {Mafi.Core.Factory.Recipes.RecipeForUiData(HashCode:-510898440)}
+      Id: RecipeForUiData
+      AllUserVisibleInputs: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Factory.Recipes.RecipeInput, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      AllUserVisibleOutputs: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Factory.Recipes.RecipeOutput, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      Duration: 200
+    {Mafi.Core.Factory.Recipes.RecipeForUiData(HashCode:207152736)}
+      Id: RecipeForUiData
+      AllUserVisibleInputs: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Factory.Recipes.RecipeInput, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      AllUserVisibleOutputs: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Factory.Recipes.RecipeOutput, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      Duration: 200
+  Layout: { }
+    {Mafi.Core.Entities.Static.Layout.EntityLayout(HashCode:2133172114)}
+      CoreSize: (9, 25)
+      SourceLayoutStr: "                        ^~X      
+   [5][5][5][4][4][4][4][4][4]   
+   [5][5][5][4][4][4][4][4][4]   
+   [5][5][5][4][4][4][4][4][4]   
+   [5][5][5][4][4][4][4][4][4]   
+   [5][5][5][4][4][4][4][4][4]   
+   [5][5][5][4][4][4][4][4][4]   
+   [5][5][5][4][4][4][4][4][4]   
+   [5][5][5][4][4][4][4][4][4]   
+   [5][5][5][4][4][4][4][4][4]   
+   [5][5][5][4][4][4][4][4][4]   
+   [5][5][5][4][4][4][4][4][4]   
+   [5][5][5][4][4][4][4][4][4]   
+   [5][5][5][4][4][4][4][4][4]   
+   [5][5][5][4][4][4][4][4][4]   
+   [5][5][5][4][4][4][4][4][4]   
+   [5][5][5][5][4][6][6][6][6]   
+   [5][5][5][5][5][6][6][6][6]   
+   [5][5][5][5][5][6][6][6][6]   
+   [5][5][5][5][5][6][6][6][6]   
+A#>[5][5][5][5][5][6][6][6][6]   
+B#>[5][5][5][5][5][6][6][6][6]   
+   [5][5][5][5][5][6][6][6][6]   
+C~>[5][5][5][5][5][6][6][6][6]   
+D~>[5][5][5][5][5][6][6][6][6]   
+   [5][5][5][5][5][6][6][6][6]   "
+      LayoutTiles: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Entities.Static.Layout.LayoutTile, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      TerrainVertices: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Entities.Static.Layout.TerrainVertexRel, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      VehicleSurfaceHeights: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[System.Collections.Generic.KeyValuePair`2[[Mafi.RelTile2i, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null],[Mafi.ThicknessTilesF, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+      Ports: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Ports.Io.IoPortTemplate, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      LayoutParams: { }
+        {Mafi.Core.Entities.Static.Layout.EntityLayoutParams(HashCode:1217122304)}
+          EnforceEmptySurface: False
+          IgnoreTilesForCore: None: Predicate`1
+          CustomTokens: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Entities.Static.Layout.CustomLayoutToken, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+          PortsCanOnlyConnectToTransports: False
+          HardenedFloorSurfaceId: DefaultConcrete_TerrainSurface
+          CustomVertexDataLayout: None: String[]
+          CustomVertexTransformFn: None: Func`3
+          CustomCollapseVerticesThreshold: null
+          CustomPlacementRange: null
+          CustomPortHeights: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[System.Collections.Generic.KeyValuePair`2[[System.Char, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+      LayoutMinHeight: 0
+      LayoutSize: (9, 25, 6)
+      OriginTile: null
+      CoreMin: (0, 0)
+      CoreMax: (8, 24)
+      TilesCount: 1074
+      CombinedConstraint: Ground
+      CollapseVerticesThreshold: 16
+      PlacementHeightRange: 0-0
+  Ports: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Ports.Io.IoPortTemplate, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+  CloningDisabled: False
+  IsUnique: False
+  CannotBeReflected: False
+  AutoBuildMiniZippers: False
+  Graphics: { }
+    {Mafi.Core.Buildings.Waste.WasteSortingPlantProto+Gfx(HashCode:175597812)}
+      PrefabPath: "Assets/Base/Buildings/WasteSortingPlant.prefab"
+      PrefabOrigin: (0, 0, 0)
+      IconPath: "Assets/Unity/Generated/Icons/LayoutEntity/WasteSortingPlant.png"
+      YawForGeneratedIcon: null
+      VisualizedLayers: Mafi.Core.Entities.Static.Layout.LayoutEntityProto+VisualizedLayers
+      Categories: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Entities.Static.Layout.ToolbarEntryData, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      IconIsCustom: False
+      UseInstancedRendering: False
+      UseSemiInstancedRendering: False
+      SemiInstancedRenderingExcludedObjects: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+      MaxRenderedLod: 2147483647
+      DisableEmptyChildrenStripping: False
+      InstancedRendererIndex: 0
+      AnimatedGameObjects: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Collections.ImmutableCollections.ImmutableArray`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Mafi.Collections.IReadOnlySet`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Mafi, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Mafi, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      AnimationLength: 0
+      HideBlockedPortsIcon: False
+      Color: (0, 0, 0, 0)
+      RendererIndex: 0
+  IconPath: "Assets/Unity/Generated/Icons/LayoutEntity/WasteSortingPlant.png"
+  Id: WasteSortingPlant
+  Costs: Mafi.Core.Prototypes.EntityCosts
+  Id: WasteSortingPlant
+  Id: WasteSortingPlant
+  Strings: Mafi.Core.Prototypes.Proto+Str
+  IsNotPhantom: True
+  IsInitialized: True
+  Mod: { }
+    {Mafi.Base.BaseMod(HashCode:172583464)}
+      Name: "Mafi-Base"
+      Version: 0
+      IsUiOnly: False
+      ModConfig: Some: Mafi.Base.BaseModConfig
+      Config: { }
+        {Mafi.Base.BaseModConfig(HashCode:459842888)}
+          BuildStartingFactory: True
+          TerrainGenerator: Default
+          MapRandomSeed: "MaFi random"
+          DisableWorldMapGenerator: False
+  Tags: { }
+    {Mafi.Collections.HybridSet`1+HybridSetNone[[Mafi.Core.Prototypes.Tag, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]](HashCode:399013466)}
+      Count: 0
+      IsEmpty: True
+      IsNotEmpty: False
+  IsNotAvailable: False
+  IsAvailable: True
+  IsLocked: True
+  IsUnlocked: False
+  IsUnlockedAndAvailable: False
+  IsLockedOrUnavailable: True
+  IsLockedButAvailable: True
+  IsObsolete: False
+  SupportedInputs: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.ProductQuantity, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+  InputBuffersCapacity: 360
+  OutputBuffersCapacity: 180
+  Graphics: { }
+    {Mafi.Core.Buildings.Waste.WasteSortingPlantProto+Gfx(HashCode:175597812)}
+    (reference already dumped - line:68)
+  BoostCost: null
+  InputPorts: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Ports.Io.IoPortTemplate, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+  OutputPorts: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Ports.Io.IoPortTemplate, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+  CannotBeBuiltByPlayer: False
+  ConstructionDurationPerProduct: 2
+  CollapseRubbleScale: 100.00%
+  CustomBuriedTolerance: null
+  CustomSuspendedTolerance: null
+  VehicleGoalHeightAllowedRange: 0-0
+  DoNotStartConstructionAutomatically: False
+  Graphics: { }
+    {Mafi.Core.Buildings.Waste.WasteSortingPlantProto+Gfx(HashCode:175597812)}
+    (reference already dumped - line:68)
+  Graphics: { }
+    {Mafi.Core.Buildings.Waste.WasteSortingPlantProto+Gfx(HashCode:175597812)}
+    (reference already dumped - line:68)
+  IsPhantom: False
+
+
+
+RainwaterHarvester
+
+{Mafi.Core.Buildings.RainwaterHarvesters.RainwaterHarvesterProto(HashCode:1229467297)}
+  EntityType: { }
+  Layout: { }
+    {Mafi.Core.Entities.Static.Layout.EntityLayout(HashCode:-1780768364)}
+      CoreSize: (19, 19)
+      SourceLayoutStr: "[3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3]      
+[3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3]      
+[3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3]      
+[3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3]      
+[3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3]      
+[3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3]   
+[3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3]   
+[3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3]   
+[3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3]   
+[3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3]>@A
+[3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3]   
+[3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3]   
+[3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3]   
+[3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3]   
+[3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3]      
+[3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3]      
+[3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3]      
+[3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3]      
+[3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3][3]      "
+      LayoutTiles: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Entities.Static.Layout.LayoutTile, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      TerrainVertices: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Entities.Static.Layout.TerrainVertexRel, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      VehicleSurfaceHeights: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[System.Collections.Generic.KeyValuePair`2[[Mafi.RelTile2i, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null],[Mafi.ThicknessTilesF, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+      Ports: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Ports.Io.IoPortTemplate, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      LayoutParams: { }
+        {Mafi.Core.Entities.Static.Layout.EntityLayoutParams(HashCode:1217122304)}
+          EnforceEmptySurface: False
+          IgnoreTilesForCore: None: Predicate`1
+          CustomTokens: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Entities.Static.Layout.CustomLayoutToken, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+          PortsCanOnlyConnectToTransports: False
+          HardenedFloorSurfaceId: DefaultConcrete_TerrainSurface
+          CustomVertexDataLayout: None: String[]
+          CustomVertexTransformFn: None: Func`3
+          CustomCollapseVerticesThreshold: null
+          CustomPlacementRange: null
+          CustomPortHeights: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[System.Collections.Generic.KeyValuePair`2[[System.Char, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+      LayoutMinHeight: 0
+      LayoutSize: (19, 19, 3)
+      OriginTile: null
+      CoreMin: (0, 0)
+      CoreMax: (18, 18)
+      TilesCount: 1053
+      CombinedConstraint: Ground
+      CollapseVerticesThreshold: 19
+      PlacementHeightRange: 0-0
+  Ports: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Ports.Io.IoPortTemplate, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+  CloningDisabled: False
+  IsUnique: False
+  CannotBeReflected: False
+  AutoBuildMiniZippers: False
+  Graphics: { }
+    {Mafi.Core.Entities.Static.Layout.LayoutEntityProto+Gfx(HashCode:1837710796)}
+      PrefabPath: "Assets/Base/Machines/Water/RainwaterCollector.prefab"
+      PrefabOrigin: (0, 0, 0)
+      IconPath: "Assets/Unity/Generated/Icons/LayoutEntity/RainwaterHarvester.png"
+      YawForGeneratedIcon: null
+      VisualizedLayers: Mafi.Core.Entities.Static.Layout.LayoutEntityProto+VisualizedLayers
+      Categories: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Entities.Static.Layout.ToolbarEntryData, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      IconIsCustom: False
+      UseInstancedRendering: True
+      UseSemiInstancedRendering: False
+      SemiInstancedRenderingExcludedObjects: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+      MaxRenderedLod: 2147483647
+      DisableEmptyChildrenStripping: False
+      InstancedRendererIndex: 0
+      AnimatedGameObjects: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Collections.ImmutableCollections.ImmutableArray`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Mafi.Collections.IReadOnlySet`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Mafi, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Mafi, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+      AnimationLength: 0
+      HideBlockedPortsIcon: False
+      Color: (0, 0, 0, 0)
+      RendererIndex: 0
+  IconPath: "Assets/Unity/Generated/Icons/LayoutEntity/RainwaterHarvester.png"
+  Id: RainwaterHarvester
+  Costs: Mafi.Core.Prototypes.EntityCosts
+  Id: RainwaterHarvester
+  Id: RainwaterHarvester
+  Strings: Mafi.Core.Prototypes.Proto+Str
+  IsNotPhantom: True
+  IsInitialized: True
+  Mod: { }
+    {Mafi.Base.BaseMod(HashCode:172583464)}
+      Name: "Mafi-Base"
+      Version: 0
+      IsUiOnly: False
+      ModConfig: Some: Mafi.Base.BaseModConfig
+      Config: { }
+        {Mafi.Base.BaseModConfig(HashCode:459842888)}
+          BuildStartingFactory: True
+          TerrainGenerator: Default
+          MapRandomSeed: "MaFi random"
+          DisableWorldMapGenerator: False
+  Tags: { }
+    {Mafi.Collections.HybridSet`1+HybridSetNone[[Mafi.Core.Prototypes.Tag, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]](HashCode:399013466)}
+      Count: 0
+      IsEmpty: True
+      IsNotEmpty: False
+  IsNotAvailable: False
+  IsAvailable: True
+  IsLocked: True
+  IsUnlocked: False
+  IsUnlockedAndAvailable: False
+  IsLockedOrUnavailable: True
+  IsLockedButAvailable: True
+  IsObsolete: False
+  WaterProto: { }
+    {Mafi.Core.Products.FluidProductProto(HashCode:-2146239391)}
+      QuantityFormatter: { }
+        {Mafi.Core.Localization.Quantity.ProductCountQuantityFormatter(HashCode:-1358262852)}
+      Graphics: { }
+        {Mafi.Core.Products.ProductProto+Gfx(HashCode:-1372172834)}
+          PrefabsPath: None: String
+          IconPath: "Assets/Base/Products/Icons/Water.svg"
+          IconIsCustom: True
+          Color: (187, 212, 238, 255)
+          TransportColor: (121, 148, 176, 255)
+          TransportAccentColor: (50, 70, 123, 255)
+      IconPath: "Assets/Base/Products/Icons/Water.svg"
+      Type: FluidProductProto
+      CanBeLoadedOnTruck: True
+      TrackSourceProducts: False
+      IsMixable: False
+      SlimId: 0
+      DoNotNormalize: False
+      DumpableProduct: None: LooseProductProto
+      SourceProduct: Mafi.Core.PartialProductQuantity
+      Id: Product_Water
+      Id: Product_Water
+      Strings: Mafi.Core.Prototypes.Proto+Str
+      IsNotPhantom: True
+      IsInitialized: True
+      Mod: { }
+        {Mafi.Base.BaseMod(HashCode:172583464)}
+        (reference already dumped - line:66)
+      Tags: { }
+        {Mafi.Collections.HybridSet`1+HybridSetNone[[Mafi.Core.Prototypes.Tag, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]](HashCode:399013466)}
+        (reference already dumped - line:78)
+      IsNotAvailable: False
+      IsAvailable: True
+      IsLocked: True
+      IsUnlocked: False
+      IsUnlockedAndAvailable: False
+      IsLockedOrUnavailable: True
+      IsLockedButAvailable: True
+      IsObsolete: False
+      MaxQuantityPerTransportedProduct: 3
+      IsStorable: True
+      Radioactivity: 0
+      PinToHomeScreenByDefault: False
+      IsExcludedFromStats: False
+      CanBeDiscarded: True
+      CanBeDestroyedInShipyard: False
+      IsWaste: False
+      IsRecyclable: False
+      IsPhantom: False
+  WaterCollectedPerDay: 1
+  Capacity: 30
+  TransferLimit: 2147483647
+  TransferLimitDuration: 1
+  BoostCost: null
+  InputPorts: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Ports.Io.IoPortTemplate, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+  OutputPorts: Mafi.Collections.ImmutableCollections.ImmutableArray`1[[Mafi.Core.Ports.Io.IoPortTemplate, Mafi.Core, Version=0.7.9.0, Culture=neutral, PublicKeyToken=null]]
+  CannotBeBuiltByPlayer: False
+  ConstructionDurationPerProduct: 2
+  CollapseRubbleScale: 100.00%
+  CustomBuriedTolerance: null
+  CustomSuspendedTolerance: null
+  VehicleGoalHeightAllowedRange: 0-0
+  DoNotStartConstructionAutomatically: False
+  Graphics: { }
+    {Mafi.Core.Entities.Static.Layout.LayoutEntityProto+Gfx(HashCode:1837710796)}
+    (reference already dumped - line:38)
+  Graphics: { }
+    {Mafi.Core.Entities.Static.Layout.LayoutEntityProto+Gfx(HashCode:1837710796)}
+    (reference already dumped - line:38)
+  IsPhantom: False
+
+
+

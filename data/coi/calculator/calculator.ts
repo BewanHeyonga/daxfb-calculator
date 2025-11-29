@@ -23,24 +23,24 @@ export function useCalculator(): Calculator {
     };
 
     const unitsForType: {[K in GameItemExType]: string} = {
-        [GameItemExType.Unknown]: '',
-        [GameItemExType.Electricity]: 'W',
-        [GameItemExType.MechPower]: 'W',
-        [GameItemExType.Computing]: 'Flops',
-        [GameItemExType.Upoints]: 'pm',
-        [GameItemExType.Maintenance]: 'pm',
-        [GameItemExType.Pollution]: '',
-        [GameItemExType.Worker]: '',
+        [GameItemExType.Unknown]: '单位',
+        [GameItemExType.Electricity]: '瓦',
+        [GameItemExType.MechPower]: '牛',
+        [GameItemExType.Computing]: '次',
+        [GameItemExType.Upoints]: '单位',
+        [GameItemExType.Maintenance]: '单位',
+        [GameItemExType.Pollution]: '计数',
+        [GameItemExType.Worker]: '人',
     };
     const formatCountPerSecond: Calculator['formatCountPerSecond'] = (item, count) => {
         const itemExdata = item.exdata as GameItemExData;
-        let unit = itemExdata.exType ? unitsForType[itemExdata.exType] : 'pm';
+        let unit = itemExdata.exType ? unitsForType[itemExdata.exType] : '单位';
         if((itemExdata.exType === GameItemExType.Electricity) || (itemExdata.exType === GameItemExType.MechPower)) {
             count *= 1000;
         } else if(itemExdata.exType === GameItemExType.Computing) {
             //TFlops by default
             if(count < 1000) {
-                unit = 'TFlops';
+                unit = '次';
             } else {
                 count *= 1e12;
             }

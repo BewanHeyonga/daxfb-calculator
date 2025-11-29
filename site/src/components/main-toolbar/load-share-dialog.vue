@@ -90,7 +90,7 @@ function load(encodedBlueprint?: string) {
     <v-dialog v-model="dialog">
         <v-sheet>
             <v-toolbar>
-                <v-toolbar-title>Load Blueprint</v-toolbar-title>
+                <v-toolbar-title>加载蓝图</v-toolbar-title>
                 <v-spacer />
                 <v-btn
                     :icon="mdiClose"
@@ -103,7 +103,7 @@ function load(encodedBlueprint?: string) {
                         <v-textarea
                             v-model="loadedBlueprint"
                             class="text-monospaced textarea-overflow-auto"
-                            label="Paste Blueprint Data"
+                            label="暂停蓝图数据"
                             variant="outlined"
                             hide-details
                         />
@@ -117,7 +117,7 @@ function load(encodedBlueprint?: string) {
                             :prepend-icon="mdiContentPaste"
                             @click="paste()"
                         >
-                            Paste From Clipboard
+                            粘贴剪切板
                         </v-btn>
                         <v-btn
                             block
@@ -126,7 +126,7 @@ function load(encodedBlueprint?: string) {
                             :prepend-icon="mdiFileUploadOutline"
                             @click="loadingBlueprint()"
                         >
-                            Load From File
+                            从文件中加载
                         </v-btn>
                         <input
                             v-if="showInputFile"
@@ -144,7 +144,7 @@ function load(encodedBlueprint?: string) {
                         block
                         @click="load()"
                     >
-                        Load Blueprint
+                        加载蓝图
                     </v-btn>
                 </v-row>
             </v-container>
